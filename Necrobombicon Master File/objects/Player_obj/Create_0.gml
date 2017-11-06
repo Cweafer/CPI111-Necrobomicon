@@ -12,4 +12,23 @@ healthCurrent = healthMax;
 
 //player specific
 bombCount = 0;
-bombSigType = "baseType";
+// bomb and sig enums and initialization
+enum bombType {
+	base,
+	remote,
+	fuse,
+	grenade,
+	rocket,
+	bounce
+}
+enum sigType {
+	clear,
+	fire,
+	air,
+	freeze,
+	body,
+	time,
+	logic
+}
+currentBombType = bombType.base;
+currentSigType = sigType.clear;

@@ -1,1 +1,0 @@
-/// @description set global variables

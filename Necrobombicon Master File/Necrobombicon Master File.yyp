@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "024a0e1d-4185-4197-b366-175fbf16b97b",
+            "Value": {
+                "id": "ee999333-fba6-49f8-b7b7-35a0d5c4b105",
+                "resourcePath": "views\\024a0e1d-4185-4197-b366-175fbf16b97b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "06b79153-1bdb-4872-b405-10dab81721f5",
             "Value": {
                 "id": "eef0287c-6962-4e48-9c21-87171402b8fd",
@@ -60,6 +68,14 @@
                 "id": "e57d1303-0b6e-419f-9077-d2be74bf2e25",
                 "resourcePath": "objects\\InfoButton_Obj\\InfoButton_Obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "165a4749-d5dc-4df6-a7bd-91b0d0f9d65d",
+            "Value": {
+                "id": "144e39a1-cf4c-4942-a665-b8f9781a315c",
+                "resourcePath": "views\\165a4749-d5dc-4df6-a7bd-91b0d0f9d65d.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -116,6 +132,14 @@
                 "id": "c0336748-9514-46c6-8bb2-966df95a118e",
                 "resourcePath": "views\\309a148d-3c9c-4635-8bad-1d8d14b10ffe.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "45533d66-1df2-4eb5-ae82-699a62aee1b2",
+            "Value": {
+                "id": "4f10a771-6833-49f7-81de-ee5f1405e18c",
+                "resourcePath": "sprites\\sigil_fire_spr\\sigil_fire_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -179,6 +203,14 @@
             "Value": {
                 "id": "42a775ff-dd46-4887-8658-bf62c8ab6b09",
                 "resourcePath": "sprites\\down_Spr\\down_Spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6c06a627-178e-4b41-bc53-a191115a6294",
+            "Value": {
+                "id": "a2e9bbf5-d0a2-4604-95a9-e8186f96227b",
+                "resourcePath": "sprites\\bombicons_base_spr\\bombicons_base_spr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -331,6 +363,14 @@
             "Value": {
                 "id": "2f8b6e6d-c49e-4ed3-b3b4-153b6f6d1c35",
                 "resourcePath": "sprites\\left_idle\\left_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d7cf57fb-3956-42a5-a4a4-19591feb3c35",
+            "Value": {
+                "id": "f8187818-4da1-4e5c-a74f-3e75edf0080f",
+                "resourcePath": "sprites\\sigil_clear_spr\\sigil_clear_spr.yy",
                 "resourceType": "GMSprite"
             }
         },
