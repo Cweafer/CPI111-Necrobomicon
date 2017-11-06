@@ -9,7 +9,6 @@ var but_ACTION = vk_space;
 var ourdir =1;
 
 if keyboard_check(mov_UP){
-show_debug_message("test");
  if keyboard_check(mov_RIGHT) {
 	ourdir = 45;
  }
