@@ -4,6 +4,10 @@
 event_inherited(); //call the methods in the parent first
 moveSpeed = 8;
 
+// set variables to not 0 (testing purposes, maybe delete later)
+// find a better way to instantiate these on game start?
+healthMax = 5;
+healthCurrent = healthMax;
 
 
 //player specific
