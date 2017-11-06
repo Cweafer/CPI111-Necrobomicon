@@ -1,0 +1,2 @@
+ActorMovement();
+ActorAnimation();
