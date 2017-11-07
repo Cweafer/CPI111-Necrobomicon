@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description 
 
 event_inherited(); //call the methods in the parent first
 moveSpeed = 8;
@@ -9,7 +8,7 @@ moveSpeed = 8;
 healthMax = 5;
 healthCurrent = healthMax;
 
-//player specific
+///      player specific          //
 bombCount = 0;
 
 // bomb and sig enums and initialization
