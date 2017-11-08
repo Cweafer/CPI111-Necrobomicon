@@ -5,12 +5,12 @@
     "name": "Play_Obj",
     "eventList": [
         {
-            "id": "231d8440-bfe9-41ef-abe4-f21f19987fc1",
+            "id": "d878e667-f87e-463e-b6cb-432f22d2fdb4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
+            "enumb": 7,
             "eventtype": 6,
             "m_owner": "513f8a8a-a398-4dbd-ae3d-d79af9f84d1e"
         }

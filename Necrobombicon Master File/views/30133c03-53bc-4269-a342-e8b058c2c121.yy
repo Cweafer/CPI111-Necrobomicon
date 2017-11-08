@@ -10,7 +10,7 @@
         "89d60f56-e82b-4ade-9e2d-230b2e55496e"
     ],
     "filterType": "GMSprite",
-    "folderName": "Menu",
+    "folderName": "MainMenu",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
