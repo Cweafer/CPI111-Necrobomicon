@@ -13,8 +13,6 @@ healthCurrent = healthMax;
 
 canMove = true;
 
-alarm[0] = room_speed * 1
-
 // sprite array stuff
 spriteArray[anim.idle, dir.north] = skeleton_backIdle;
 spriteArray[anim.idle, dir.northeast] = skeleton_backIdle;
