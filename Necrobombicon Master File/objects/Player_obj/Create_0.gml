@@ -32,3 +32,22 @@ enum sigType {
 }
 currentBombType = bombType.base;
 currentSigType = sigType.clear;
+
+// populate animation array
+spriteArray[anim.idle, dir.north] = up_idle;
+spriteArray[anim.idle, dir.northeast] = up_idle;
+spriteArray[anim.idle, dir.northwest] = up_idle;
+spriteArray[anim.idle, dir.south] = down_idle;
+spriteArray[anim.idle, dir.southeast] = down_idle;
+spriteArray[anim.idle, dir.southwest] = down_idle;
+spriteArray[anim.idle, dir.east] = right_idle;
+spriteArray[anim.idle, dir.west] = left_idle;
+
+spriteArray[anim.move, dir.north] = up_Spr;
+spriteArray[anim.move, dir.northeast] = up_Spr;
+spriteArray[anim.move, dir.northwest] = up_Spr;
+spriteArray[anim.move, dir.south] = down_Spr;
+spriteArray[anim.move, dir.southeast] = down_Spr;
+spriteArray[anim.move, dir.southwest] = down_Spr;
+spriteArray[anim.move, dir.east] = right_Spr;
+spriteArray[anim.move, dir.west] = left_Spr;
