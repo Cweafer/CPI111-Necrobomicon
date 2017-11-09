@@ -1,9 +1,11 @@
 ///@description ESC : pause menu
-if(global.actor_allowUpdate == false)
+if(global.actor_allowUpdate) 
 {
-	global.actor_allowUpdate = true;
-}
-else if(global.actor_allowUpdate == true)
-{
+	//PAUSING
 	global.actor_allowUpdate = false;
+}
+else
+{
+	//UNPAUSING
+	global.actor_allowUpdate = true;
 }
