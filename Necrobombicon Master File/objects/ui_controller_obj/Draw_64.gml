@@ -2,11 +2,11 @@
 draw_set_font(font_explorer);
 if (global.actor_allowUpdate == false) // if game is paused
 {
-	draw_text(100,100,"Game is paused.\nPress ESC to continue.");
+	draw_text(345,245,"Game is paused.\nPress ESC to continue.");
 }
 
-currentX = x + 25;
-currentY = y - sprite_get_height(healthbar_base_spr) + 10;
+currentX = 25;
+currentY = camera_get_view_height(view_camera[0]) - sprite_get_height(healthbar_base_spr) - 25;
 
 // health bar
 draw_sprite(healthbar_base_spr,0,currentX,currentY);
