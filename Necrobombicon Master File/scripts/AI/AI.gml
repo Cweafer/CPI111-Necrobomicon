@@ -7,7 +7,7 @@ intendedSpeed = 0;
 if(timer == 100){
 if(randQuat == randQuantcol){
 intendedDir=point_direction(Skeleton_obj.x,Skeleton_obj.y,Player_obj.x,Player_obj.y);
-intendedSpeed = 12;
+intendedSpeed = 10;
 }
 else{
 intendedDir = irandom_range(0,359);
