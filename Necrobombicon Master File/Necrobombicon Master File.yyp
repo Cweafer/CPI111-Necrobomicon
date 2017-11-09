@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "50ddc8a4-5d81-433c-baa7-288d463b8851",
+            "Value": {
+                "id": "e1f7e982-62b8-46fb-9f7a-eff6f7fffce7",
+                "resourcePath": "objects\\UI_TextElement\\UI_TextElement.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "513f8a8a-a398-4dbd-ae3d-d79af9f84d1e",
             "Value": {
                 "id": "62a6e613-a879-4c19-b287-acf771d62a45",
