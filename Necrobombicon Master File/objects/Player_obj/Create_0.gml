@@ -1,7 +1,7 @@
 /// @description 
 event_inherited(); //call the methods in the parent first
 
-obj_type = "player";
+type = actor_type.player;
 moveSpeed = 8;
 
 // set variables to not 0 (testing purposes, maybe delete later)

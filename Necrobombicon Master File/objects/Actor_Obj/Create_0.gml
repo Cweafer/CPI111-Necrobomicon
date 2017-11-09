@@ -1,8 +1,16 @@
 /// @description Decision Phase
 /// Define the instance variables shared by all actors
-obj_type = "actor";
-
+enum actor_type {
+	actor = 0,
+	player = 1,
+	enemy = 2,
+	projectile = 3,
+	bomb = 4,
+	loose = 5,
+	tile = 6
+}
 //movement instance variables
+type = actor_type.actor;//default type
 canMove = true;//used for locking in movement vector
 attacking = false;//used for attack animations and cooldowns
 pushable = false;

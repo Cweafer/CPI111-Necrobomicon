@@ -5,7 +5,7 @@ var force = 1; //see above note
 if(global.actor_allowUpdate){
 	if(isSolid){
 		with(Actor_Obj){
-			if(place_meeting((x)+xSpeed,y,other)){ 
+			if(place_meeting((x)+xSpeed,y,other)){
 				//check if the object can be pushed and if it can add to the force vector
 				if(other.pushable){
 					ds_list_add(other.environmentVectMag, sqrt(power(xSpeed,2) + power(ySpeed,2)));
