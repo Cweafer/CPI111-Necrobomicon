@@ -1,5 +1,5 @@
 /// @description 
-
+draw_set_font(font_explorer);
 if (global.actor_allowUpdate == false) // if game is paused
 {
 	draw_text(100,100,"Game is paused.\nPress ESC to continue.");
