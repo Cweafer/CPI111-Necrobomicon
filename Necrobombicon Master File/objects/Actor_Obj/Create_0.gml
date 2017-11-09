@@ -4,6 +4,7 @@ obj_type = "actor";
 
 //movement instance variables
 canMove = true;//used for locking in movement vector
+attacking = false;//used for attack animations and cooldowns
 pushable = false;
 moveSpeed = 0; 
 intendedDir = 0;
