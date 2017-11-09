@@ -1,12 +1,18 @@
 /// @description Forgive me, for I have sinned
-currentX = x + 25;
-currentY = y - sprite_get_height(healthbar_base_spr) + 10;
+currentX = 25;
+currentY = camera_get_view_height(view_camera[0]) - sprite_get_height(healthbar_base_spr) - 25;
 
 draw_set_font(font_explorer);
 if (global.actor_allowUpdate == false) // if game is paused
 {
+	//book
 	draw_sprite(MenuBG,0,window_get_width()-sprite_get_width(MenuBG),window_get_height()-sprite_get_height(MenuBG));
-	draw_text(400,245,"Game is paused.\nPress ESC to continue.");
+	//garbage text placeholder trash
+	draw_text(400,245,"Game is paused.");
+	draw_text(440,400,"Unpause");
+	draw_text(440,460,"Restart");
+	//cursor, hard-coded for extra crying
+	draw_sprite(MenuCursor,0,540,340+60*menuPos);
 }
 
 // health bar

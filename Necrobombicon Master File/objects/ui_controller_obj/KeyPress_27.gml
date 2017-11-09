@@ -9,3 +9,6 @@ else
 	//UNPAUSING
 	global.actor_allowUpdate = true;
 }
+
+menuPos = 1;
+menuNumOfOptions = 2;
