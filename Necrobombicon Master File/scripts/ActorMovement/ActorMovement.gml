@@ -3,8 +3,6 @@ var environSpeedX = 0;
 var environSpeedY = 0;
 j = ds_list_size(environmentVectMag);
 for(i=0; i < j; i++){
-	show_debug_message(ds_list_find_value(environmentVectMag,i));
-	show_debug_message(ds_list_find_value(environmentVectDir,i));
 	//check if the magnitude hasn't fallen to zero, otherwise delete vector
 	if(ds_list_find_value(environmentVectMag,i) > 0){
 		//split vectors for addition
