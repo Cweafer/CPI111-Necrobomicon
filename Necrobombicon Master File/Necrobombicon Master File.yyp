@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "6bcac4d9-00ed-463a-a62c-55bb5796cb2d",
+            "Value": {
+                "id": "e48b5deb-451d-4c6c-8991-45c07f4a9060",
+                "resourcePath": "objects\\bone_obj\\bone_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6c06a627-178e-4b41-bc53-a191115a6294",
             "Value": {
                 "id": "a2e9bbf5-d0a2-4604-95a9-e8186f96227b",
@@ -372,6 +380,14 @@
                 "id": "75f95ccb-faf6-42ca-8bbc-fb9242edc383",
                 "resourcePath": "views\\72643e43-2f9b-426a-92ec-fc60e38a6cd8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "760b5590-d2bc-415a-a0dc-8f61915f6039",
+            "Value": {
+                "id": "3f0fbb0a-f055-4b21-9b9c-370b91a9df8a",
+                "resourcePath": "scripts\\ThrowProjectile\\ThrowProjectile.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -845,7 +861,8 @@
         "ba46ab12-86b8-4b51-8366-58194e590588",
         "3b1a9465-dd14-4cf0-91a5-b6083a5d8651",
         "fca1fc9d-2651-4823-b352-84f6d590c641",
-        "d3886aa5-2bde-4e93-97b8-c60a1d15ce0c"
+        "d3886aa5-2bde-4e93-97b8-c60a1d15ce0c",
+        "760b5590-d2bc-415a-a0dc-8f61915f6039"
     ],
     "tutorial": ""
 }

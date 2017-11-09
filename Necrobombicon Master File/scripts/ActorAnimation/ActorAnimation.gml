@@ -19,8 +19,13 @@ if(global.actor_allowUpdate)
 	else if ((intendedDir > 292.5) && (intendedDir < 337.5))
 		currentDirection = dir.southeast;
 	
+	if(attacking)
+	{
+		if (spriteArray[anim.hit, currentDirection] != undefined)
+			sprite_index = spriteArray[anim.hit, currentDirection];
+	}
 	//handle movement animation
-	if(intendedSpeed != 0)
+	else if(intendedSpeed != 0)
 	{
 		if (spriteArray[anim.move, currentDirection] != undefined)
 			sprite_index = spriteArray[anim.move, currentDirection];

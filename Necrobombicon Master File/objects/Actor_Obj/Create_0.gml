@@ -12,6 +12,7 @@ enum actor_type {
 //movement instance variables
 type = actor_type.actor;//default type
 canMove = true;//used for locking in movement vector
+attacking = false;//used for attack animations and cooldowns
 pushable = false;
 moveSpeed = 0; 
 intendedDir = 0;
