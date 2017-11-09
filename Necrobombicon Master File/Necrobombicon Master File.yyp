@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "cffc31da-b26b-4491-b477-753cc4c7b2c8",
+            "Value": {
+                "id": "8d0dc65b-26ce-4c6a-82b1-0aa8bebc4f2c",
+                "resourcePath": "fonts\\font_explorer\\font_explorer.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "d2bc0d4e-bcd4-4a4a-9397-16e511304504",
             "Value": {
                 "id": "79609a8c-1831-43b0-9202-e63c973e8bf7",
@@ -612,6 +620,14 @@
                 "id": "507622f7-2abc-4618-978d-05e8510c0b18",
                 "resourcePath": "objects\\TestWall\\TestWall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e6b9544a-fc70-450b-9231-7f54c351181e",
+            "Value": {
+                "id": "7aaae20f-8e78-4123-a4c7-50c575c6d41e",
+                "resourcePath": "fonts\\font_book\\font_book.yy",
+                "resourceType": "GMFont"
             }
         },
         {
