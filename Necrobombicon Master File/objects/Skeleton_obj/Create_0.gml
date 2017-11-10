@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
-type = actor_type.enemy;
 
 timer = 0;
 randQuat = irandom_range(1,4);

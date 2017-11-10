@@ -4,7 +4,7 @@ var environSpeedY = 0;
 j = ds_list_size(environmentVectMag);
 for(i=0; i < j; i++){
 	//check if the magnitude hasn't fallen to zero, otherwise delete vector
-	if(ds_list_find_value(environmentVectMag,i) > 0){
+	if(ds_list_find_value(environmentVectMag,i) > 1){
 		//split vectors for addition
 		environSpeedX += lengthdir_x(ds_list_find_value(environmentVectMag,i), ds_list_find_value(environmentVectDir,i));
 		environSpeedY += lengthdir_y(ds_list_find_value(environmentVectMag,i), ds_list_find_value(environmentVectDir,i));

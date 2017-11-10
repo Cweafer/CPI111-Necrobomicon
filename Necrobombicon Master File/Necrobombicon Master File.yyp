@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "09bf5012-af07-4c74-97cd-754522d231b5",
+            "Value": {
+                "id": "40d6a12a-5ca6-4e6b-9db9-c75359eee8b7",
+                "resourcePath": "objects\\Enemy_Obj\\Enemy_Obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0ac04280-806e-4cf8-9594-af4af3b7084c",
             "Value": {
                 "id": "43cd5f1f-75c4-48fe-a7a1-07414ed45cec",
@@ -212,6 +220,14 @@
                 "id": "46b8eebf-ecb0-47bd-a201-8c76b2e10329",
                 "resourcePath": "sprites\\skeleton_walkingLeft\\skeleton_walkingLeft.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "41b09958-1c2c-47d5-a340-8d4160bcf44a",
+            "Value": {
+                "id": "a6d29b93-6dae-4aaf-87b2-0b065b895530",
+                "resourcePath": "scripts\\addVector\\addVector.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -902,7 +918,8 @@
         "3b1a9465-dd14-4cf0-91a5-b6083a5d8651",
         "fca1fc9d-2651-4823-b352-84f6d590c641",
         "d3886aa5-2bde-4e93-97b8-c60a1d15ce0c",
-        "760b5590-d2bc-415a-a0dc-8f61915f6039"
+        "760b5590-d2bc-415a-a0dc-8f61915f6039",
+        "41b09958-1c2c-47d5-a340-8d4160bcf44a"
     ],
     "tutorial": ""
 }

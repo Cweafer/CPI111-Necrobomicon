@@ -1,4 +1,5 @@
-/// @description Decision Phase
+/// @description Setup Variables
+
 /// Define the instance variables shared by all actors
 enum actor_type {
 	actor = 0,
@@ -9,6 +10,7 @@ enum actor_type {
 	loose = 5,
 	tile = 6
 }
+
 //movement instance variables
 type = actor_type.actor;//default type
 canMove = true;//used for locking in movement vector
@@ -19,13 +21,15 @@ intendedDir = 0;
 intendedSpeed = 0;
 xSpeed = 0;
 ySpeed = 0;
-
+maxSpeed = 20; //testing if this makes movement smoother 
+actorIn = false;
 //magnitude
 environmentVectMag = ds_list_create();
 //direction
 environmentVectDir = ds_list_create(); 
 //decelleration
 environmentVectDec = ds_list_create();
+
 
 //collision instance variables
 isSolid = true;
