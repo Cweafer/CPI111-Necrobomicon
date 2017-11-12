@@ -15,6 +15,7 @@ for(i=0; i < j; i++){
 		ds_list_delete(environmentVectMag,i);
 		ds_list_delete(environmentVectDir,i);
 		ds_list_delete(environmentVectDec,i);
+		ds_list_delete(environmentVectTyp,i);
 	}
 }
 

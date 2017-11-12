@@ -5,13 +5,13 @@ var xCol = false;
 var yCol = false;
 
 var colisions = 0;
-
+/*
 if(global.actor_allowUpdate){
-	if(isSolid&&!actorIn){//this checks the current object
-		with(Actor_Obj){ 
-			if(isSolid&&!actorIn){ //this checks the object it's colliding with
-				if(place_meeting((x)+xSpeed,y,other)) xCol = true; 
-				if(place_meeting(x,(y)+ySpeed,other)) yCol = true;
+	if(isSolid){//this checks the current object
+		with(Loose_Obj){ 
+			if(isSolid){ //this checks the object it's colliding with
+				//if(place_meeting((other.x)+other.xSpeed,y,other)) xCol = true; 
+				//if(place_meeting(x,(y)+ySpeed,other)) yCol = true;
 				//handle extra environmental vectors
 				if(xCol || yCol)
 				{ colisions++;
@@ -29,3 +29,4 @@ if(global.actor_allowUpdate){
 	}
 	else actorIn=false;
 }
+*/

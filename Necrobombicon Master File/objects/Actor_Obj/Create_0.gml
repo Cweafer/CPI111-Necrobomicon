@@ -14,22 +14,24 @@ enum actor_type {
 //movement instance variables
 type = actor_type.actor;//default type
 canMove = true;//used for locking in movement vector
-attacking = false;//used for attack animations and cooldowns
 pushable = false;
 moveSpeed = 0; 
 intendedDir = 0;
 intendedSpeed = 0;
 xSpeed = 0;
 ySpeed = 0;
+//probably remove these values
 maxSpeed = 20; //testing if this makes movement smoother 
 actorIn = false;
+
 //magnitude
 environmentVectMag = ds_list_create();
 //direction
 environmentVectDir = ds_list_create(); 
 //decelleration
 environmentVectDec = ds_list_create();
-
+//type
+environmentVectTyp = ds_list_create();
 
 //collision instance variables
 isSolid = true;
@@ -37,6 +39,8 @@ isSolid = true;
 //attribute instance variables
 healthMax = 0;
 healthCurrent = 0;
+
+attacking = false;//used for attack animations and cooldowns
 
 //array to hold all sprites (must be filled out individually in all actor create events!)
 enum anim {

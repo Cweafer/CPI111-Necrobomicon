@@ -2,11 +2,11 @@
 event_inherited(); //call the methods in the parent first
 
 type = actor_type.player;
-moveSpeed = 8;
+moveSpeed = 5;
 
 // set variables to not 0 (testing purposes, maybe delete later)
 // find a better way to instantiate these on game start?
-healthMax = 5;
+healthMax = 25;
 healthCurrent = healthMax;
 
 ///      player specific          //
@@ -60,3 +60,5 @@ spriteArray[anim.hit, dir.southeast] = down_throw;
 spriteArray[anim.hit, dir.southwest] = down_throw;
 spriteArray[anim.hit, dir.east] = right_throw;
 spriteArray[anim.hit, dir.west] = left_throw;
+
+mask_index = spriteArray[anim.idle, dir.south];

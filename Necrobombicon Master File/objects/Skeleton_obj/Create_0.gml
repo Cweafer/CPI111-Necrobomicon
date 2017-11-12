@@ -9,6 +9,7 @@ intendedSpeed = 5;
 
 healthMax = 1;
 healthCurrent = healthMax;
+damage = 2;
 
 canMove = true;
 
