@@ -4,3 +4,7 @@ if (attacking)
 {
 	attacking = false;
 }
+if(isInvincible) 
+{
+	isInvincible = false;
+}

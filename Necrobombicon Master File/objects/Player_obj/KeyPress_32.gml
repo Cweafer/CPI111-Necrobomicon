@@ -12,3 +12,5 @@ if(!place_meeting(xPos,yPos, Bomb_Obj)&& !checkTileAtPoints(collisionMap, [xPos 
 		addVector(self,2,other.intendedDir,10,"init");
 	}
 }
+
+attacking = true;

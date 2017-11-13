@@ -1,18 +1,8 @@
 /// @description Setup Variables
 
 /// Define the instance variables shared by all actors
-enum actor_type {
-	actor = 0,
-	player = 1,
-	enemy = 2,
-	projectile = 3,
-	bomb = 4,
-	loose = 5,
-	tile = 6
-}
 
 //movement instance variables
-type = actor_type.actor;//default type
 canMove = true;//used for locking in movement vector
 pushable = false;
 moveSpeed = 0; 
@@ -40,6 +30,7 @@ isSolid = true;
 healthMax = 0;
 healthCurrent = 0;
 
+isInvincible = false;//true = no damage, no knockback
 attacking = false;//used for attack animations and cooldowns
 
 //array to hold all sprites (must be filled out individually in all actor create events!)

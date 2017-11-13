@@ -19,7 +19,12 @@ if(global.actor_allowUpdate)
 	else if ((intendedDir > 292.5) && (intendedDir < 337.5))
 		currentDirection = dir.southeast;
 	
-	if(attacking)
+	if(isInvincible)
+	{
+		if (spriteArray[anim.hurt, currentDirection] != undefined)
+			sprite_index = spriteArray[anim.hurt, currentDirection];
+	}
+	else if(attacking)
 	{
 		if (spriteArray[anim.hit, currentDirection] != undefined)
 			sprite_index = spriteArray[anim.hit, currentDirection];
