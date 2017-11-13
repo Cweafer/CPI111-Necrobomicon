@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "97570ae2-9e3e-4163-82f7-867f486fa661",
+            "Value": {
+                "id": "093dc7da-07ef-4749-8e2e-8126fdec8ff8",
+                "resourcePath": "sprites\\fancySpriteSheet\\fancySpriteSheet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9ae7cdc7-5637-42fb-aeb1-b8d0c222057b",
             "Value": {
                 "id": "f15884ce-8a49-4763-adb8-1051ea1f16fc",
@@ -572,6 +580,14 @@
                 "id": "7efe3d77-04d8-4396-864b-0679e8dc3342",
                 "resourcePath": "objects\\Actor_Obj\\Actor_Obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a54c0d24-aaf1-452c-be5e-6cef52293b87",
+            "Value": {
+                "id": "3599a7c8-9826-4882-90f8-57c4e8783063",
+                "resourcePath": "tilesets\\fancyDestructable\\fancyDestructable.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -968,8 +984,8 @@
         "fca1fc9d-2651-4823-b352-84f6d590c641",
         "d3886aa5-2bde-4e93-97b8-c60a1d15ce0c",
         "760b5590-d2bc-415a-a0dc-8f61915f6039",
-        "41b09958-1c2c-47d5-a340-8d4160bcf44a",
-        "72b161bb-a412-4ee4-aec2-229450f0188d"
+        "72b161bb-a412-4ee4-aec2-229450f0188d",
+        "41b09958-1c2c-47d5-a340-8d4160bcf44a"
     ],
     "tutorial": ""
 }
