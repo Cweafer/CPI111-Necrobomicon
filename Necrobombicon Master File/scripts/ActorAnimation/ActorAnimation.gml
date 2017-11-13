@@ -1,5 +1,4 @@
-//this needs to be cleaned up and reogranized to be more robust 
-
+//this needs to be cleaned up and reogranized to be more robust
 if(global.actor_allowUpdate)
 {
 	if ((intendedDir >= 337.5) || (intendedDir <= 22.5))
@@ -37,7 +36,7 @@ if(global.actor_allowUpdate)
 	}
 	else
 	//handles idle animations
-	if(intendedSpeed == 0)
+	//if(intendedSpeed == 0)
 	{	
 		if (spriteArray[anim.idle, currentDirection] != undefined)
 			sprite_index = spriteArray[anim.idle, currentDirection];

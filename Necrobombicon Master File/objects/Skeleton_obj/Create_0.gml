@@ -41,7 +41,7 @@ spriteArray[anim.hit, dir.southwest] = skeleton_hitDown;
 spriteArray[anim.hit, dir.east] = skeleton_hitRight;
 spriteArray[anim.hit, dir.west] = skeleton_hitLeft;
 
-for (i = 0; i <= 7; i++)
+for (i = 0; i <= 8; i++)
 {
 	spriteArray[anim.hurt, i] = skeleton_hurt;
 }

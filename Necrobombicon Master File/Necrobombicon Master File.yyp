@@ -386,7 +386,7 @@
             "Key": "6bcac4d9-00ed-463a-a62c-55bb5796cb2d",
             "Value": {
                 "id": "e48b5deb-451d-4c6c-8991-45c07f4a9060",
-                "resourcePath": "objects\\bone_obj\\bone_obj.yy",
+                "resourcePath": "objects\\Projectile_Obj\\Projectile_Obj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -660,6 +660,14 @@
                 "id": "cc024660-103b-4188-86d2-8bfe8b35031d",
                 "resourcePath": "sprites\\down_throw\\down_throw.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c1f8bc8d-65da-40b1-b647-5724bca0a120",
+            "Value": {
+                "id": "382a99ed-998f-401e-ac42-db713ec6eec5",
+                "resourcePath": "objects\\bone_projectile_obj\\bone_projectile_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {

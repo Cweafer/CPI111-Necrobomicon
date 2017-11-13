@@ -13,7 +13,6 @@ ySpeed = 0;
 //probably remove these values
 maxSpeed = 20; //testing if this makes movement smoother 
 actorIn = false;
-
 //magnitude
 environmentVectMag = ds_list_create();
 //direction

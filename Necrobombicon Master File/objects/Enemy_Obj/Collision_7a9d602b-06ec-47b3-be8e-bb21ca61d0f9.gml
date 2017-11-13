@@ -6,4 +6,5 @@ if (!Player_obj.isInvincible)
 	// Subtract health from player
 	Player_obj.healthCurrent-=damage;
 	Player_obj.isInvincible = true;
+	Player_obj.image_index = 0;
 }

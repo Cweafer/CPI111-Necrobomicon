@@ -5,5 +5,5 @@ if(!Player_obj.isInvincible)
 	instance_destroy();
 	Player_obj.healthCurrent -=damage;
 	Player_obj.isInvincible = true;
-	Player_obj.sprite_index = 0;
+	Player_obj.image_index = 0;
 }

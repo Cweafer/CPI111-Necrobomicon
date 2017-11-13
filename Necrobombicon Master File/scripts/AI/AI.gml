@@ -1,4 +1,4 @@
-if ( global.actor_allowUpdate == true )
+if ( global.actor_allowUpdate == true && !isInvincible )
 {
 	with(Skeleton_obj){
 		randQuantcol = irandom_range(1,4);
@@ -6,7 +6,7 @@ if ( global.actor_allowUpdate == true )
 		if(timer == 150)
 		{//the ol pause
 			intendedSpeed = 0;
-			ThrowProjectile();
+			ThrowProjectile(bone_projectile_obj);
 		}
 		if(timer == 250)
 		{
