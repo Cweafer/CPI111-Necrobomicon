@@ -1,7 +1,6 @@
 /// @description 
 event_inherited(); //call the methods in the parent first
 
-type = actor_type.player;
 moveSpeed = 5;
 
 // set variables to not 0 (testing purposes, maybe delete later)
@@ -60,5 +59,10 @@ spriteArray[anim.hit, dir.southeast] = down_throw;
 spriteArray[anim.hit, dir.southwest] = down_throw;
 spriteArray[anim.hit, dir.east] = right_throw;
 spriteArray[anim.hit, dir.west] = left_throw;
+
+for(i = 0; i <= 8; i++)
+{
+	spriteArray[anim.hurt, i] = TestWall_Sprite;
+}
 
 mask_index = spriteArray[anim.idle, dir.south];
