@@ -31,6 +31,7 @@ healthCurrent = 0;
 
 isInvincible = false;//true = no damage, no knockback
 attacking = false;//used for attack animations and cooldowns
+damage = 0;
 
 //array to hold all sprites (must be filled out individually in all actor create events!)
 enum anim {
