@@ -6,7 +6,8 @@
     "children": [
         "fca1fc9d-2651-4823-b352-84f6d590c641",
         "d3886aa5-2bde-4e93-97b8-c60a1d15ce0c",
-        "760b5590-d2bc-415a-a0dc-8f61915f6039"
+        "760b5590-d2bc-415a-a0dc-8f61915f6039",
+        "14306f88-26f3-416e-b594-86c00f22195f"
     ],
     "filterType": "GMScript",
     "folderName": "Actor Control Scripts",
