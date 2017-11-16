@@ -2,3 +2,4 @@
 window_set_size(1280,720);
 //window_set_fullscreen(true);
 global.actor_allowUpdate = true;
+global.floorNum = 0;

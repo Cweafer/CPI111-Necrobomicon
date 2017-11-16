@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "253b70a5-7da7-4d4c-ba76-442f465d1f21",
+            "Value": {
+                "id": "da27c46c-30aa-43e7-868e-5689a21cbd52",
+                "resourcePath": "tilesets\\roomTileSet\\roomTileSet.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "2592e69f-3c74-44bb-ac5c-31b3c89d1b63",
             "Value": {
                 "id": "a9fe16f4-b3df-4794-aada-f4fa31f80b87",
@@ -375,6 +383,14 @@
             }
         },
         {
+            "Key": "67bf09f7-230e-4e59-9d08-b7880e56368a",
+            "Value": {
+                "id": "56eedb8b-70f1-4a72-a3a5-4061070646f1",
+                "resourcePath": "scripts\\getActorRoom\\getActorRoom.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "69e5f04b-cb0e-4663-b86a-8da6c7489183",
             "Value": {
                 "id": "42a775ff-dd46-4887-8658-bf62c8ab6b09",
@@ -479,6 +495,22 @@
             }
         },
         {
+            "Key": "81a41315-8a3b-47a7-8845-50082faf8d1c",
+            "Value": {
+                "id": "5bad820e-ef40-42e0-af4f-dd71eee12bb1",
+                "resourcePath": "scripts\\setFloorData\\setFloorData.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "81ccee3e-36ae-4db4-a58d-1d56d91524c6",
+            "Value": {
+                "id": "66dd0ee4-b01c-4acd-bb0d-311c526802bf",
+                "resourcePath": "scripts\\setDefaultMods\\setDefaultMods.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "85078903-2ca8-4b93-b577-e1b09cb16b28",
             "Value": {
                 "id": "bebc1023-91ee-4c36-a35f-f6323b89a632",
@@ -527,6 +559,22 @@
             }
         },
         {
+            "Key": "920bc207-050a-42df-87bf-dc4a78f776ae",
+            "Value": {
+                "id": "979a0673-0f66-45a2-89e2-672e3a3a8c9f",
+                "resourcePath": "objects\\roomController\\roomController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "92830513-9852-4c89-bbc4-1f8fc86bcb9b",
+            "Value": {
+                "id": "1281c0be-f1d9-43c4-8f9a-aca86252721f",
+                "resourcePath": "sprites\\roomTiles\\roomTiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "92b63e33-a6f3-47dc-92fb-7a3f2929a0fe",
             "Value": {
                 "id": "e4330e64-d88b-40ff-8d7c-8e99e3d11c2d",
@@ -556,6 +604,14 @@
                 "id": "093dc7da-07ef-4749-8e2e-8126fdec8ff8",
                 "resourcePath": "sprites\\fancySpriteSheet\\fancySpriteSheet.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "97f16321-84ed-4ee0-8e40-95b0d1cdefde",
+            "Value": {
+                "id": "11f4c1d2-dfda-4c62-80d4-3d74588a443d",
+                "resourcePath": "views\\97f16321-84ed-4ee0-8e40-95b0d1cdefde.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -699,6 +755,14 @@
             "Value": {
                 "id": "80cc1677-d887-413e-8d39-134c245196b2",
                 "resourcePath": "scripts\\TileCollision\\TileCollision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c5d33fa9-f190-414e-93a0-31e0fabea5cf",
+            "Value": {
+                "id": "eb287a19-c558-4987-8bb7-93e2608f2921",
+                "resourcePath": "scripts\\swapCurrentRoom\\swapCurrentRoom.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -993,7 +1057,11 @@
         "d3886aa5-2bde-4e93-97b8-c60a1d15ce0c",
         "760b5590-d2bc-415a-a0dc-8f61915f6039",
         "72b161bb-a412-4ee4-aec2-229450f0188d",
-        "41b09958-1c2c-47d5-a340-8d4160bcf44a"
+        "41b09958-1c2c-47d5-a340-8d4160bcf44a",
+        "81a41315-8a3b-47a7-8845-50082faf8d1c",
+        "81ccee3e-36ae-4db4-a58d-1d56d91524c6",
+        "c5d33fa9-f190-414e-93a0-31e0fabea5cf",
+        "67bf09f7-230e-4e59-9d08-b7880e56368a"
     ],
     "tutorial": ""
 }

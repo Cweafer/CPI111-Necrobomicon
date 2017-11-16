@@ -4,15 +4,12 @@
 
 //movement instance variables
 canMove = true;//used for locking in movement vector
-pushable = false;
 moveSpeed = 0; 
 intendedDir = 0;
 intendedSpeed = 0;
 xSpeed = 0;
 ySpeed = 0;
-//probably remove these values
-maxSpeed = 20; //testing if this makes movement smoother 
-actorIn = false;
+
 //magnitude
 environmentVectMag = ds_list_create();
 //direction
@@ -23,7 +20,9 @@ environmentVectDec = ds_list_create();
 environmentVectTyp = ds_list_create();
 
 //collision instance variables
-isSolid = true;
+isSolid = true; //used for checking if actor can go through solid tiles
+canPush = true; //used for checking if actor can push loose objects
+pushable = false;
 
 //attribute instance variables
 healthMax = 0;
@@ -31,6 +30,7 @@ healthCurrent = 0;
 
 isInvincible = false;//true = no damage, no knockback
 attacking = false;//used for attack animations and cooldowns
+damage = 0; //damage dealt to player by actor
 
 //array to hold all sprites (must be filled out individually in all actor create events!)
 enum anim {
