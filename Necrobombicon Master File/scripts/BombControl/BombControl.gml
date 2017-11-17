@@ -15,6 +15,7 @@ if(!place_meeting(xPos,yPos, Bomb_Obj)&& !checkTileAtPoints(collisionMap, collis
 }
 
 attacking = true;
+image_index = 0;
 }
 if(currentBombType == bombType.bounce){
 //insert code here

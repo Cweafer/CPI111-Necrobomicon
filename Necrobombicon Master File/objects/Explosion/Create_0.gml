@@ -7,6 +7,8 @@ with(Actor_Obj){
 				healthCurrent -= 1;
 				isInvincible = true;
 				image_index = 0;
+				image_speed = 1;
+				ActorAnimation();
 			}
 		addVector(self,(radius - distance_to_object(other))/5, point_direction(other.x,other.y,x,y), 5,self.id);
 	}

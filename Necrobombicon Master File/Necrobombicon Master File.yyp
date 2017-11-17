@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "7bbdad01-8c11-4ef6-9612-3b4a2c7f055d",
+            "Value": {
+                "id": "15b1894c-8fc1-4987-9b14-995da94817b6",
+                "resourcePath": "objects\\Skeleton_bonepile_obj\\Skeleton_bonepile_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7d0fe4ae-a844-4fff-b1c2-758a522c5ed4",
             "Value": {
                 "id": "22822391-5d76-4b96-81d9-ca536cd8f713",

@@ -18,6 +18,13 @@ if(global.actor_allowUpdate)
 	else if ((intendedDir > 292.5) && (intendedDir < 337.5))
 		currentDirection = dir.southeast;
 	
+	// animation end event
+	if (image_index >= (image_number))
+	{
+		isInvincible = false;
+		attacking = false;
+	}
+	
 	if(isInvincible)
 	{
 		if (spriteArray[anim.hurt, currentDirection] != undefined)

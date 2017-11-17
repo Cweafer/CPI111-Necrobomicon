@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "Loose_Obj",
     "eventList": [
-        
+        {
+            "id": "4aa286e1-00af-496d-81a6-88ca79ecdf1a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "bed0d536-afae-4305-8768-b6378c8343b5"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "a1d776b8-be3f-4d05-bb9d-3145611b24f3",
