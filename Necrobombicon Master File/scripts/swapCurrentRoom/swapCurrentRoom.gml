@@ -6,7 +6,6 @@ var newRoom = argument1;
 show_debug_message("going from room " +string(previousRoom) + " to " + string(newRoom));
 
 currentBombType = bombTypeData[newRoom];
-currentThrowType = throwTypeData[newRoom];
 
 //Room Modifiers
 timedRoom = timedRoomData[newRoom];

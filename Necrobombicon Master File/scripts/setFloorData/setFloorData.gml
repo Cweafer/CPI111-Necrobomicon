@@ -1,7 +1,6 @@
 ///@params floor_number
 //here we reset the arrays
 bombTypeData = 0;
-throwTypeData = 0;
 timedRoomData = 0;
 maxTimeData = 0;
 bombBagData = 0;
@@ -20,7 +19,6 @@ case 1://this is the first floor of the game
 	roomNum = 1; 
 
 	bombTypeData[roomNum] = 0;
-	throwTypeData[roomNum] = 0;
 
 	setDefaultMods(roomNum);
 	/////////////////////////////////////////////////////
@@ -28,9 +26,9 @@ case 1://this is the first floor of the game
 	roomNum = 2; 
 
 	bombTypeData[roomNum] = 0;
-	throwTypeData[roomNum] = 0;
 
 	setDefaultMods(roomNum);
+	bombMagnetData[roomNum] = true;
 	/////////////////////////////////////////////////////
 	
 break;

@@ -3,3 +3,5 @@ var playerRoom = getActorRoom(Player_obj);
 
 if(currentRoom != playerRoom)
 	swapCurrentRoom(currentRoom,playerRoom);
+	
+updateRoomMods();

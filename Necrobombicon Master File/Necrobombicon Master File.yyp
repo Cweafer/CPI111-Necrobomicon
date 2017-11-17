@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "36cb7f0d-aef1-42d1-a222-a9cc208a63cf",
+            "Value": {
+                "id": "dd56e3b9-0b0f-4924-9027-da2ca6d7407d",
+                "resourcePath": "scripts\\updateRoomMods\\updateRoomMods.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "39ef8d1c-5e7b-49cc-964b-319ddfd30389",
             "Value": {
                 "id": "1290b64c-91c4-4fc1-a3d0-069ddc2cd3d2",
@@ -335,6 +343,14 @@
             }
         },
         {
+            "Key": "59c1c0f4-ebd8-4a12-a76c-b21d6e5227e3",
+            "Value": {
+                "id": "ff649b13-cf90-4d53-9a40-5810e0863b1a",
+                "resourcePath": "objects\\Bomb_Obj\\Bomb_Obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "59d914ad-0664-4c81-9efd-191068763633",
             "Value": {
                 "id": "eb2d9784-38d1-4808-a0b4-8a2f94084281",
@@ -379,14 +395,6 @@
             "Value": {
                 "id": "fa337196-dba5-4fa6-a59b-db2755975e5c",
                 "resourcePath": "objects\\Explosion\\Explosion.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "657f127c-5ff9-49f5-8bf4-a3c6036e1d18",
-            "Value": {
-                "id": "8a73dc56-3e44-4299-8784-c7397dc156cb",
-                "resourcePath": "objects\\Bomb_Obj\\Bomb_Obj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1110,7 +1118,8 @@
         "81a41315-8a3b-47a7-8845-50082faf8d1c",
         "81ccee3e-36ae-4db4-a58d-1d56d91524c6",
         "c5d33fa9-f190-414e-93a0-31e0fabea5cf",
-        "67bf09f7-230e-4e59-9d08-b7880e56368a"
+        "67bf09f7-230e-4e59-9d08-b7880e56368a",
+        "36cb7f0d-aef1-42d1-a222-a9cc208a63cf"
     ],
     "tutorial": ""
 }
