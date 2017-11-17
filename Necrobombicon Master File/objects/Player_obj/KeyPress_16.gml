@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-instance_destroy(Bomb_Obj);
+with(Bomb_Obj)
+	instance_destroy(self);

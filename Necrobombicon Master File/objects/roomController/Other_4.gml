@@ -6,7 +6,6 @@ currentRoom = getActorRoom(Player_obj);
 //the following code is a template for setting a room;
 //player properties for the current room
 currentBombType = 0;
-currentThrowType = 0;
 
 //Room Modifiers
 timedRoom = false;
