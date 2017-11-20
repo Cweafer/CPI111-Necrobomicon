@@ -1,3 +1,4 @@
+
 if ( global.actor_allowUpdate == true && !isInvincible )
 {
 	with(Skeleton_obj){
@@ -12,6 +13,7 @@ if ( global.actor_allowUpdate == true && !isInvincible )
 		{
 			if(randQuat == randQuantcol)
 			{
+				state = 1;
 				intendedDir=point_direction(x,y,Player_obj.x,Player_obj.y);
 				intendedSpeed = 6;
 			}
@@ -25,6 +27,9 @@ if ( global.actor_allowUpdate == true && !isInvincible )
 		else
 		{
 		timer++;
+		}
+		if(is_Colliding == true){
+		intendedDir = irandom_range(0,359);
 		}
 	}
 }
