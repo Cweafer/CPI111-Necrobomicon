@@ -24,6 +24,7 @@ isSolid = true; //used for checking if actor can go through solid tiles
 canPush = true; //used for checking if actor can push loose objects
 is_Colliding = false;//checks actor is colliding with an object
 pushable = false;
+destroyOnCollide = false;
 
 //attribute instance variables
 healthMax = 0;

@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "8613f80b-7af4-48e8-858a-d9d71e42960e",
+            "Value": {
+                "id": "e92c1afd-a19f-4ef7-9b6c-7eeea9751d73",
+                "resourcePath": "objects\\Fuse_Bomb\\Fuse_Bomb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "872f342b-6645-44ce-b114-b789edca675d",
             "Value": {
                 "id": "9f5cdb54-313a-4123-b9af-1ed4948920b5",

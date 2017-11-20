@@ -1,6 +1,10 @@
 /// @description try moving there
 //handles merging movement vectors and updates h/v speed
 ActorMovement();
+
+if(destroyOnCollide && is_Colliding){
+instance_destroy();
+}
 /*
 if(other.isSolid && isSolid){
 	var pushDir = 0;
