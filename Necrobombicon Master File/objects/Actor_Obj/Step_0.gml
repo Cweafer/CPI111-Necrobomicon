@@ -2,6 +2,7 @@
 //handles merging movement vectors and updates h/v speed
 ActorMovement();
 
+//checks if an object is supposed to be destryoed on collision with an object
 if(destroyOnCollide && is_Colliding){
 instance_destroy();
 }
