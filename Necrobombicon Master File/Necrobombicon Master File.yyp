@@ -703,6 +703,14 @@
             }
         },
         {
+            "Key": "a70a1ca3-5eef-47f4-94a0-c2fb0e87f850",
+            "Value": {
+                "id": "a16113b5-8990-4709-8f50-245b943c8ff9",
+                "resourcePath": "objects\\Rocket_Bomb\\Rocket_Bomb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "d9565380-3c7f-4179-8601-b51c97f1a426",
