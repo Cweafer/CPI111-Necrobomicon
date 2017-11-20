@@ -14,6 +14,7 @@ with(Actor_Obj){
 	}
 	
 }
+
 //destroy destructable tiles
 var tilemap = layer_tilemap_get_id("DestructableTiles");
 

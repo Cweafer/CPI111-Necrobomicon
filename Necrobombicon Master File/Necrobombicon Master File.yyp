@@ -799,6 +799,14 @@
             }
         },
         {
+            "Key": "c1fee462-39de-4242-909b-22e77e4c0f70",
+            "Value": {
+                "id": "8ee7315e-4d33-4263-ac79-f5ae268b54e7",
+                "resourcePath": "scripts\\checkTileCollision\\checkTileCollision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c4eda756-a94a-4264-8f78-65c27bc19dd2",
             "Value": {
                 "id": "8bc66f2e-3a95-4aa8-abf3-70beee253612",
@@ -1131,6 +1139,7 @@
         "14306f88-26f3-416e-b594-86c00f22195f",
         "72b161bb-a412-4ee4-aec2-229450f0188d",
         "41b09958-1c2c-47d5-a340-8d4160bcf44a",
+        "c1fee462-39de-4242-909b-22e77e4c0f70",
         "81a41315-8a3b-47a7-8845-50082faf8d1c",
         "81ccee3e-36ae-4db4-a58d-1d56d91524c6",
         "c5d33fa9-f190-414e-93a0-31e0fabea5cf",

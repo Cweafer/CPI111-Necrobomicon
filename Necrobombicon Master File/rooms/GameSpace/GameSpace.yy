@@ -2,7 +2,7 @@
 {
     "name": "GameSpace",
     "id": "663d34d0-0056-404f-a4a9-950253331df8",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -338,7 +338,7 @@
         "id": "83eabdd1-eb3f-4fd5-aaf8-01d42945d67e",
         "clearDisplayBuffer": true,
         "clearViewBackground": false,
-        "enableViews": true,
+        "enableViews": false,
         "inheritViewSettings": false,
         "modelName": "GMRoomViewSettings",
         "mvc": "1.0"
