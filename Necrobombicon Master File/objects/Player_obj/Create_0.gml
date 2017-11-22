@@ -11,15 +11,7 @@ healthCurrent = healthMax;
 ///      player specific          //
 bombCount = 0;
 
-// bomb and sig enums and initialization
-enum bombType {
-	base,
-	remote,
-	fuse,
-	grenade,
-	rocket,
-	bounce
-}
+// sig enums and initialization
 enum sigType {
 	clear,
 	fire,
@@ -29,7 +21,6 @@ enum sigType {
 	time,
 	logic
 }
-currentBombType = bombType.base;
 currentSigType = sigType.clear;
 
 // populate animation array

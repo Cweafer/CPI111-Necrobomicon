@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0add2691-9a0b-40f1-ab5c-d9fc83f6eedb",
+            "Value": {
+                "id": "9c292c45-b8fe-41aa-9aae-e269c4680096",
+                "resourcePath": "sprites\\sigil_freeze_spr\\sigil_freeze_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0b2a7cde-bf60-495c-8ca8-810aabdfb54d",
             "Value": {
                 "id": "acf97b2c-2663-4ffa-8822-fc89f359067d",
@@ -108,6 +116,14 @@
                 "id": "28769b22-2ce8-45fc-9322-8ec7a8797cb3",
                 "resourcePath": "views\\0e9154d4-6fde-4899-b198-fbf63e63cd71.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0ffe84f4-9420-41cd-9fb9-4e5313759360",
+            "Value": {
+                "id": "44a3beef-ef27-47c7-a97f-53da1d98d385",
+                "resourcePath": "sprites\\remoteBomb\\remoteBomb.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -431,14 +447,6 @@
             }
         },
         {
-            "Key": "6c06a627-178e-4b41-bc53-a191115a6294",
-            "Value": {
-                "id": "a2e9bbf5-d0a2-4604-95a9-e8186f96227b",
-                "resourcePath": "sprites\\bombicons_base_spr\\bombicons_base_spr.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "6f31a4a2-318b-49cf-a695-dac77ef8e381",
             "Value": {
                 "id": "fe0f0c90-b846-43ce-9dbf-e510b6fceee7",
@@ -479,6 +487,14 @@
             }
         },
         {
+            "Key": "74992d24-c347-4419-8bff-9bbd03a09fd8",
+            "Value": {
+                "id": "d2ba7aa1-7f1f-4322-a646-8304306eff2c",
+                "resourcePath": "sprites\\sigil_logic_spr\\sigil_logic_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "760b5590-d2bc-415a-a0dc-8f61915f6039",
             "Value": {
                 "id": "3f0fbb0a-f055-4b21-9b9c-370b91a9df8a",
@@ -487,11 +503,35 @@
             }
         },
         {
+            "Key": "762ee963-0663-4974-ba3c-99acc970fc5f",
+            "Value": {
+                "id": "9d69b4da-2a4b-4642-a473-d7d5ec4ebc84",
+                "resourcePath": "views\\762ee963-0663-4974-ba3c-99acc970fc5f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7979d0b7-8179-43b4-bfd9-3d71cc33d009",
             "Value": {
                 "id": "6a64d087-2c89-46cf-8d2d-90d49a1c1f5e",
                 "resourcePath": "views\\7979d0b7-8179-43b4-bfd9-3d71cc33d009.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7a81c073-ee9a-4967-b553-fbdbd8063c95",
+            "Value": {
+                "id": "6d05032b-652f-48d5-83c2-0b78b85e3b40",
+                "resourcePath": "sprites\\sigil_time_spr\\sigil_time_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7a8e3ac1-a6da-41c4-81cf-54172ec72e2c",
+            "Value": {
+                "id": "0e881ae1-6ee7-440f-b017-d9c1aed0edc2",
+                "resourcePath": "sprites\\rocketBomb\\rocketBomb.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -548,6 +588,14 @@
                 "id": "66dd0ee4-b01c-4acd-bb0d-311c526802bf",
                 "resourcePath": "scripts\\setDefaultMods\\setDefaultMods.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "82719532-705d-4078-9fc8-c3c823457a5d",
+            "Value": {
+                "id": "bd0b2bc9-76a2-4e00-9c03-d48fa4b0af57",
+                "resourcePath": "sprites\\sigil_bkg\\sigil_bkg.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -644,6 +692,14 @@
                 "id": "c1f3fd27-75d9-47c2-9e2a-526d3a7a64e4",
                 "resourcePath": "views\\9434009b-8c47-453d-957c-6d845f0dc23d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "95e71f1f-34c3-4108-813b-4a6ae965a928",
+            "Value": {
+                "id": "69684fed-f236-4a6d-b60e-c5992a9f7777",
+                "resourcePath": "sprites\\bounceBomb\\bounceBomb.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -775,6 +831,14 @@
             }
         },
         {
+            "Key": "bd40657b-e981-46b8-a769-3ec0b6979153",
+            "Value": {
+                "id": "2f2bc27b-4366-4503-88bd-69d8ad678c80",
+                "resourcePath": "sprites\\fuseBomb\\fuseBomb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bed0d536-afae-4305-8768-b6378c8343b5",
             "Value": {
                 "id": "a4512152-e003-42f4-bbb3-95020a9b38f2",
@@ -860,6 +924,14 @@
                 "id": "40221a70-3807-4a74-af5d-944b98634988",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce1071f6-c0e5-40b4-8833-05d9582b8a62",
+            "Value": {
+                "id": "65cf056b-9501-47f6-8841-9029c17f0d0c",
+                "resourcePath": "sprites\\sigil_air_spr\\sigil_air_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1123,6 +1195,14 @@
             "Value": {
                 "id": "e58a3a56-d14c-43d6-a2cf-e46f0e14de82",
                 "resourcePath": "sprites\\sprite0\\sprite0.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ff6d0792-aa19-47a1-b2f5-177460a7af16",
+            "Value": {
+                "id": "190a1af0-f0e4-45ac-b59d-872c5b935a65",
+                "resourcePath": "sprites\\grenadeBomb\\grenadeBomb.yy",
                 "resourceType": "GMSprite"
             }
         }

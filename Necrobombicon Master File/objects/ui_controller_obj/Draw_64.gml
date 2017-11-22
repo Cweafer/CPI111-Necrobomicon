@@ -10,7 +10,7 @@ if (global.actor_allowUpdate == false) // if game is paused
 	//garbage text placeholder trash
 	draw_text(400,245,"Game is paused.");
 	draw_text(440,400,"Unpause");
-	draw_text(440,460,"Restart");
+	draw_text(440,460,"Quit");
 	//cursor, hard-coded for extra crying
 	draw_sprite(MenuCursor,0,540,340+60*menuPos);
 }
@@ -23,16 +23,29 @@ for (i = 1; i <= Player_obj.healthCurrent; i++)
 }
 currentX += sprite_get_width(healthbar_base_spr) + 10;
 // bomb icon
-draw_sprite(sigil_clear_spr,0, currentX,currentY);	// background image
-switch(Player_obj.currentBombType)
+draw_sprite(sigil_bkg,0,currentX,currentY);	// background image
+currentX += 48;
+currentY += 48;
+switch(roomController.currentBombType)
 {
-	default: draw_sprite(bombicons_base_spr,0,currentX,currentY); break;  // includes base bomb
+	case bombType.bounce: draw_sprite(bounceBomb,0,currentX,currentY); break;
+	case bombType.fuse: draw_sprite(fuseBomb,0,currentX,currentY); break;
+	case bombType.grenade: draw_sprite(grenadeBomb,0,currentX,currentY); break;
+	case bombType.remote: draw_sprite(remoteBomb,0,currentX,currentY); break;
+	case bombType.rocket: draw_sprite(rocketBomb,0,currentX,currentY); break;
+	default: draw_sprite(baseBomb,0,currentX,currentY); break;  // includes base bomb
 }
+currentX -= 48;
+currentY -= 48;
 currentX += sprite_get_width(sigil_clear_spr) + 10;
 // sigil icon
 switch(Player_obj.currentSigType)
 {
 	case sigType.fire: draw_sprite(sigil_fire_spr,0,currentX,currentY); break;
+	case sigType.air: draw_sprite(sigil_air_spr,0,currentX,currentY); break;
+	case sigType.logic:  draw_sprite(sigil_logic_spr,0,currentX,currentY); break;
+	case sigType.freeze:  draw_sprite(sigil_freeze_spr,0,currentX,currentY); break;
+	case sigType.time: draw_sprite(sigil_time_spr,0,currentX,currentY); break;
 	default: draw_sprite(sigil_clear_spr,0,currentX,currentY); break;	// includes clear
 }
 currentX += sprite_get_width(sigil_clear_spr) + 10;

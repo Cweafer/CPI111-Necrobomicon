@@ -5,13 +5,13 @@
     "name": "Fuse_Bomb",
     "eventList": [
         {
-            "id": "c5cd7a25-9744-4d9c-8806-a25ad1cea0d2",
+            "id": "6e280587-ee46-4a37-93c0-c193e4c1447a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
+            "eventtype": 2,
             "m_owner": "8613f80b-7af4-48e8-858a-d9d71e42960e"
         }
     ],
@@ -31,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "bd40657b-e981-46b8-a769-3ec0b6979153",
     "visible": true
 }

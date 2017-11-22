@@ -7,6 +7,8 @@ bombBagData = 0;
 maxBombsData = 0;
 bombMagnetData = 0;
 
+
+
 var roomNum = 0; 
 switch(global.floorNum)
 {
@@ -18,14 +20,14 @@ case 1://this is the first floor of the game
 	//room 1 start
 	roomNum = 1; 
 
-	bombTypeData[roomNum] = 0;
+	bombTypeData[roomNum] = bombType.base;
 
 	setDefaultMods(roomNum);
 	/////////////////////////////////////////////////////
 	//room2 start
 	roomNum = 2; 
 
-	bombTypeData[roomNum] = 0;
+	bombTypeData[roomNum] = bombType.fuse;
 
 	setDefaultMods(roomNum);
 	bombMagnetData[roomNum] = true;

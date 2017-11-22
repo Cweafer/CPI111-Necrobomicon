@@ -7,6 +7,7 @@ show_debug_message("going from room " +string(previousRoom) + " to " + string(ne
 
 currentBombType = bombTypeData[newRoom];
 
+
 //Room Modifiers
 timedRoom = timedRoomData[newRoom];
 maxTime = maxTimeData[newRoom];
