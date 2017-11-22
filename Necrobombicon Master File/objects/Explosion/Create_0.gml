@@ -1,5 +1,5 @@
 /// @description 
-var radius = sprite_get_width(sprite_index) / 2;
+var radius = sprite_get_width(sprite_index);
 with(Actor_Obj){
 	if(distance_to_object(other)<radius){
 		if (isInvincible == false)
