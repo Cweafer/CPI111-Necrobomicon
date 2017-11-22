@@ -23,6 +23,9 @@ case 1://this is the first floor of the game
 	roomNum = 1; 
 
 	bombTypeData[roomNum] = bombType.base;
+	roomLocksData[roomNum] = 0;
+	roomKeysData[roomNum] = 0;
+	fightRoomData[roomNum] = true;
 	//setRoomLocks(roomNum);
 
 	setDefaultMods(roomNum);
