@@ -9,8 +9,6 @@ healthMax = 25;
 healthCurrent = healthMax;
 
 ///      player specific          //
-bombCount = 0;
-
 // sig enums and initialization
 enum sigType {
 	clear,

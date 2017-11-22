@@ -1119,6 +1119,14 @@
             }
         },
         {
+            "Key": "ebd5467a-3005-44c8-93a2-b73ca7636219",
+            "Value": {
+                "id": "94e2f865-d960-4ad9-bd7b-1d8aad18cc80",
+                "resourcePath": "objects\\Bounce_Bomb\\Bounce_Bomb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ebef5721-3e64-4b24-ba39-1bcfba28df40",
             "Value": {
                 "id": "29e044e0-94da-4f99-92c0-d0c1350b19c1",
@@ -1164,6 +1172,14 @@
                 "id": "cca428de-329d-45c6-bbb7-225563b82aba",
                 "resourcePath": "sprites\\baseBomb\\baseBomb.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f64e8d60-ad47-40f7-9155-a7daa9c6d1f1",
+            "Value": {
+                "id": "72d5cd61-8466-403f-95b0-805f1769d6d4",
+                "resourcePath": "objects\\Remote_Bomb\\Remote_Bomb.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -1,13 +1,13 @@
 {
-    "id": "8613f80b-7af4-48e8-858a-d9d71e42960e",
+    "id": "f64e8d60-ad47-40f7-9155-a7daa9c6d1f1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Fuse_Bomb",
+    "name": "Remote_Bomb",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "59c1c0f4-ebd8-4a12-a76c-b21d6e5227e3",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "bd40657b-e981-46b8-a769-3ec0b6979153",
+    "spriteId": "0ffe84f4-9420-41cd-9fb9-4e5313759360",
     "visible": true
 }

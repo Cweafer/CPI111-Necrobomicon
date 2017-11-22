@@ -30,10 +30,10 @@ case 1://this is the first floor of the game
 	//room2 start
 	roomNum = 2; 
 
-	bombTypeData[roomNum] = bombType.fuse;
+	bombTypeData[roomNum] = bombType.bounce;
 
 	setDefaultMods(roomNum);
-	bombMagnetData[roomNum] = true;
+	bombMagnetData[roomNum] = false;
 	/////////////////////////////////////////////////////
 	
 break;
