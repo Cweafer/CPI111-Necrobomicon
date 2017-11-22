@@ -20,14 +20,14 @@ case 1://this is the first floor of the game
 	//room 1 start
 	roomNum = 1; 
 
-	bombTypeData[roomNum] = bombType.base;
+	bombTypeData[roomNum] = bombType.rocket;
 
 	setDefaultMods(roomNum);
 	/////////////////////////////////////////////////////
 	//room2 start
 	roomNum = 2; 
 
-	bombTypeData[roomNum] = bombType.bounce;
+	bombTypeData[roomNum] = bombType.remote;
 
 	setDefaultMods(roomNum);
 	bombMagnetData[roomNum] = false;

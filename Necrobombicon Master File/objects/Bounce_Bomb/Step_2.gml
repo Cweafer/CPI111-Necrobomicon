@@ -6,6 +6,6 @@ if(is_Colliding)
 	intendedDir += 180;
 	intendedSpeed = 6;
 	numBounces++;
-	if (numBounces > 20)
+	if (numBounces > 5)
 		instance_destroy();
 }
