@@ -6,8 +6,10 @@ maxTimeData = 0;
 bombBagData = 0;
 maxBombsData = 0;
 bombMagnetData = 0;
-
-
+roomClearedData = 0;
+roomLocksData = 0;
+roomKeysData = 0;
+fightRoomData = 0;
 
 var roomNum = 0; 
 switch(global.floorNum)
@@ -21,6 +23,7 @@ case 1://this is the first floor of the game
 	roomNum = 1; 
 
 	bombTypeData[roomNum] = bombType.base;
+	//setRoomLocks(roomNum);
 
 	setDefaultMods(roomNum);
 	/////////////////////////////////////////////////////

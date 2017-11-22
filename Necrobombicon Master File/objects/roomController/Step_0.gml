@@ -5,3 +5,6 @@ if(currentRoom != playerRoom)
 	swapCurrentRoom(currentRoom,playerRoom);
 	
 updateRoomMods();
+
+if(!roomCleared && roomLocks == roomKeys)
+	roomCleared=true;
