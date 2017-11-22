@@ -14,12 +14,4 @@ with(Actor_Obj){
 }
 
 //destroy destructable tiles
-var tilemap = layer_tilemap_get_id("DestructableTiles");
-
-var emptyTile = tile_set_empty(tilemap_get_at_pixel(tilemap, x,y));
-
-tilemap_set_at_pixel(tilemap,emptyTile,x,y);
-tilemap_set_at_pixel(tilemap,emptyTile,x+radius/2,y);
-tilemap_set_at_pixel(tilemap,emptyTile,x-radius/2,y);
-tilemap_set_at_pixel(tilemap,emptyTile,x,y+radius/2);
-tilemap_set_at_pixel(tilemap,emptyTile,x,y-radius/2);
+destroyTileColliding(self,0,0);

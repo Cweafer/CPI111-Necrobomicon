@@ -3,7 +3,7 @@
 ///@param points...
 
 var found = false;
-var int i = 2;
+var i = 2;
 while(!found && i < argument_count)
 {
 	var current = argument[i];

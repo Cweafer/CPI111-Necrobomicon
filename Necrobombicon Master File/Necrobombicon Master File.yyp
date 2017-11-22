@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "6a4affdd-9309-4bb7-bc16-967c8a68af92",
+            "Value": {
+                "id": "e7fbd6e0-4521-4679-a0ef-19bcc745d831",
+                "resourcePath": "scripts\\destroyTileColliding\\destroyTileColliding.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6bcac4d9-00ed-463a-a62c-55bb5796cb2d",
             "Value": {
                 "id": "e48b5deb-451d-4c6c-8991-45c07f4a9060",
@@ -1151,6 +1159,14 @@
             }
         },
         {
+            "Key": "f1b54d2c-7bd6-45c3-b558-d611d7ba7d26",
+            "Value": {
+                "id": "efc36ca3-d82a-45b1-8a35-fcd969f806e9",
+                "resourcePath": "scripts\\getTileAtPoints\\getTileAtPoints.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f3e426aa-b87a-4bef-bfdf-48e980762ca8",
             "Value": {
                 "id": "ad006628-31cb-47b3-a78c-44069861ff93",
@@ -1236,6 +1252,8 @@
         "72b161bb-a412-4ee4-aec2-229450f0188d",
         "41b09958-1c2c-47d5-a340-8d4160bcf44a",
         "c1fee462-39de-4242-909b-22e77e4c0f70",
+        "f1b54d2c-7bd6-45c3-b558-d611d7ba7d26",
+        "6a4affdd-9309-4bb7-bc16-967c8a68af92",
         "81a41315-8a3b-47a7-8845-50082faf8d1c",
         "81ccee3e-36ae-4db4-a58d-1d56d91524c6",
         "c5d33fa9-f190-414e-93a0-31e0fabea5cf",
