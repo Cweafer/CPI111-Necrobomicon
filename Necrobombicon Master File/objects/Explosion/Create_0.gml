@@ -15,7 +15,7 @@ with(Actor_Obj){
 						addVector(self,(radius - distance_to_object(other))/5, point_direction(other.x,other.y,x,y), 5,self.id);
 						break;
 					case sigType.air:
-						addVector(self,(radius - distance_to_object(other))/5, point_direction(other.x,other.y,x,y), 5,self.id);
+						addVector(self,(radius - distance_to_object(other))/2, point_direction(other.x,other.y,x,y), 5,self.id);
 						break;
 				}
 			}
