@@ -1,4 +1,9 @@
 /// @description 
+
+switch(Player_obj.currentSigType) {
+	case clear: break;
+}
+
 var radius = sprite_get_width(sprite_index);
 with(Actor_Obj){
 	if(distance_to_object(other)<radius){
