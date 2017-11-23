@@ -12,10 +12,13 @@ with(Actor_Obj){
 						healthCurrent -= 1;
 						isInvincible = true;
 						image_index = 0;
+						addVector(self,(radius - distance_to_object(other))/5, point_direction(other.x,other.y,x,y), 5,self.id);
+						break;
+					case sigType.air:
+						addVector(self,(radius - distance_to_object(other))/5, point_direction(other.x,other.y,x,y), 5,self.id);
 						break;
 				}
 			}
-		addVector(self,(radius - distance_to_object(other))/5, point_direction(other.x,other.y,x,y), 5,self.id);
 	}
 	
 }
