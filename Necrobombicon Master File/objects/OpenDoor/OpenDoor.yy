@@ -1,58 +1,58 @@
 {
-    "id": "324b40d8-b5c4-47a3-8429-d984ce72968e",
+    "id": "f33bd7d2-c371-4f96-85a9-5da6bec6e987",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "OpenDoor",
     "eventList": [
         {
-            "id": "0eef1a22-5163-409d-b7b3-e84b9d4457ea",
+            "id": "aae374ba-bf0b-4866-a7e1-92edd0f85f6d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "324b40d8-b5c4-47a3-8429-d984ce72968e"
+            "m_owner": "f33bd7d2-c371-4f96-85a9-5da6bec6e987"
         },
         {
-            "id": "c6af8515-fc87-40fa-8970-35b7462e8f49",
+            "id": "68f4a272-0ffe-4435-b94f-e93942ea4fbe",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 1,
-            "m_owner": "324b40d8-b5c4-47a3-8429-d984ce72968e"
+            "m_owner": "f33bd7d2-c371-4f96-85a9-5da6bec6e987"
         },
         {
-            "id": "88776313-d7e3-4d4f-8484-9a70fa936f7b",
+            "id": "fa1c6421-2552-4cd2-bc58-b22699b70016",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "324b40d8-b5c4-47a3-8429-d984ce72968e"
+            "m_owner": "f33bd7d2-c371-4f96-85a9-5da6bec6e987"
         },
         {
-            "id": "d2dfcbb7-03a1-4217-a115-6f1634e5ae80",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "e4a622a6-3eb7-4a22-9597-4ed73d9d99ee",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "324b40d8-b5c4-47a3-8429-d984ce72968e"
-        },
-        {
-            "id": "d5dda46d-1812-4594-b31b-bba87fc9b7a2",
+            "id": "b145d07e-6e3f-4504-8e08-a202893abed0",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 2,
             "eventtype": 3,
-            "m_owner": "324b40d8-b5c4-47a3-8429-d984ce72968e"
+            "m_owner": "f33bd7d2-c371-4f96-85a9-5da6bec6e987"
+        },
+        {
+            "id": "3c306ff0-7db1-489a-b4d7-c050d3e59a24",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "e4a622a6-3eb7-4a22-9597-4ed73d9d99ee",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "f33bd7d2-c371-4f96-85a9-5da6bec6e987"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

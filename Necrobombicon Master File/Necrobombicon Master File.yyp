@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "01ce2618-7925-454a-8784-fd9ea5eddaf2",
+            "Value": {
+                "id": "a98ef4b2-06e7-4c38-b120-b69587b25a20",
+                "resourcePath": "objects\\sigil_obj\\sigil_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "01e7aa39-b8e8-4032-b0b6-981d0666a255",
             "Value": {
                 "id": "92df54ef-1d0f-4eb3-9454-abbf53e6698f",
@@ -123,6 +131,14 @@
             "Value": {
                 "id": "28769b22-2ce8-45fc-9322-8ec7a8797cb3",
                 "resourcePath": "views\\0e9154d4-6fde-4899-b198-fbf63e63cd71.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0f4df08a-dd04-41ee-887a-e11568581169",
+            "Value": {
+                "id": "fed27961-835e-4005-a1c2-d20e69edd4cc",
+                "resourcePath": "views\\0f4df08a-dd04-41ee-887a-e11568581169.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -255,10 +271,10 @@
             }
         },
         {
-            "Key": "324b40d8-b5c4-47a3-8429-d984ce72968e",
+            "Key": "32ac9302-a62f-45b3-ae66-f60eae7b7cdb",
             "Value": {
-                "id": "939b3a90-907b-43f5-a555-24b2c5bb7da1",
-                "resourcePath": "objects\\OpenDoor\\OpenDoor.yy",
+                "id": "3671f396-d280-4fa0-af78-769ece772ffc",
+                "resourcePath": "objects\\sigil_air_obj\\sigil_air_obj.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -471,6 +487,14 @@
             }
         },
         {
+            "Key": "6dfcbfff-dd88-407c-992b-7443b33ca6c6",
+            "Value": {
+                "id": "b3c0d0ce-6157-45f5-b5ff-81e5fd1f8cd6",
+                "resourcePath": "objects\\sigil_fire_obj\\sigil_fire_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6f31a4a2-318b-49cf-a695-dac77ef8e381",
             "Value": {
                 "id": "fe0f0c90-b846-43ce-9dbf-e510b6fceee7",
@@ -516,6 +540,14 @@
                 "id": "bf1ec576-a207-4700-9d59-a5ba12eacfda",
                 "resourcePath": "scripts\\checkTileAtPoints\\checkTileAtPoints.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "734ace4b-6fec-4292-838b-6ce4612c68f8",
+            "Value": {
+                "id": "db97f763-4ed1-4c0d-b6b9-037baed1655f",
+                "resourcePath": "objects\\sigil_time_obj\\sigil_time_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -599,6 +631,14 @@
             }
         },
         {
+            "Key": "7fc3c6ed-ee39-4ae5-bf1e-46fc67c50b9f",
+            "Value": {
+                "id": "1b612ccd-be2c-4e9a-a4ac-b2abb3b352a0",
+                "resourcePath": "objects\\sigil_time_obj1\\sigil_time_obj1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7fce917b-a489-4fb7-86de-5b1a7a5907d5",
             "Value": {
                 "id": "9e78b3b0-d2b8-45e8-bc4b-464c1f0c8953",
@@ -635,6 +675,14 @@
             "Value": {
                 "id": "bebc1023-91ee-4c36-a35f-f6323b89a632",
                 "resourcePath": "views\\85078903-2ca8-4b93-b577-e1b09cb16b28.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "86086346-bb03-4605-b7e5-41181c4dee79",
+            "Value": {
+                "id": "bb2fe04e-72e6-4240-bdf4-36f697434383",
+                "resourcePath": "views\\86086346-bb03-4605-b7e5-41181c4dee79.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -820,6 +868,14 @@
                 "id": "dcd1aabf-f4a8-4e03-93ea-cd2dedc42680",
                 "resourcePath": "views\\ac9ec9d6-1522-40f7-9890-a39d88043ef1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b0bb49b9-6eaa-4196-b5e1-7a673a623f21",
+            "Value": {
+                "id": "fa8580cf-a5c7-4fe8-8fa3-00d0bb25a267",
+                "resourcePath": "objects\\sigil_freeze_obj\\sigil_freeze_obj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1095,6 +1151,14 @@
             }
         },
         {
+            "Key": "dadce15f-cf61-40d7-9dc0-9ca291d84ab3",
+            "Value": {
+                "id": "a3b032bd-6e76-4f09-a589-49f4e466ab1c",
+                "resourcePath": "objects\\sigil_clear_obj\\sigil_clear_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dd300180-2a4d-4ff8-afd4-3392cf3d6ec9",
             "Value": {
                 "id": "16519fa3-29f7-493c-8713-91da0b07628f",
@@ -1204,6 +1268,14 @@
                 "id": "efc36ca3-d82a-45b1-8a35-fcd969f806e9",
                 "resourcePath": "scripts\\getTileAtPoints\\getTileAtPoints.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f33bd7d2-c371-4f96-85a9-5da6bec6e987",
+            "Value": {
+                "id": "60fa6a9e-2ec0-4f89-bf51-b0a87b56fb4b",
+                "resourcePath": "objects\\OpenDoor\\OpenDoor.yy",
+                "resourceType": "GMObject"
             }
         },
         {
