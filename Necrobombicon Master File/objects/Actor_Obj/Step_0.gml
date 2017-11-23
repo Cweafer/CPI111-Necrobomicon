@@ -4,7 +4,7 @@ ActorMovement();
 
 //checks if an object is supposed to be destryoed on collision with an object
 if(destroyOnCollide && is_Colliding){
-instance_destroy();
+	instance_destroy();
 }
 /*
 if(other.isSolid && isSolid){
