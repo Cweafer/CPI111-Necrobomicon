@@ -17,6 +17,11 @@ maxBombs = maxBombsData[newRoom];
 
 bombMagnet = bombMagnetData[newRoom];
 
+//room cleared data
+roomLocks = roomLocksData[newRoom];
+roomKeys = roomKeysData[newRoom];
+roomCleared = roomClearedData[newRoom];
+
 
 //finally switch out the room
 currentRoom = newRoom;

@@ -9,8 +9,6 @@ bombMagnetData = 0;
 roomClearedData = 0;
 roomLocksData = 0;
 roomKeysData = 0;
-fightRoomData = 0;
-
 
 var roomNum = 0; 
 switch(global.floorNum)

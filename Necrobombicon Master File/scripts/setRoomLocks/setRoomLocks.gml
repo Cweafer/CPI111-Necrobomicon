@@ -3,4 +3,4 @@
 
 roomLocksData[argument0] = 0;
 roomKeysData[argument0] = 0;
-fightRoomData[argument0] = false;
+roomClearedData[argument0] = false;
