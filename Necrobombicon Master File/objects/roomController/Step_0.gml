@@ -8,3 +8,5 @@ updateRoomMods();
 
 if(!roomCleared && roomLocks == roomKeys)
 	roomCleared=true;
+	
+if(enemys = 0 && enemysData[currentRoom] > 0){roomKeys++}

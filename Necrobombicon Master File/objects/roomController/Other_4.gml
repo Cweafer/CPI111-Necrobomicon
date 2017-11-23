@@ -20,6 +20,7 @@ currentBombType = bombType.base;
 roomCleared = false;
 roomLocks = 0;
 roomKeys = 0;
+enemys = 0;
 
 //Room Modifiers
 timedRoom = false;

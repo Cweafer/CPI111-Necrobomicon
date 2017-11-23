@@ -3,7 +3,7 @@
 var previousRoom = argument0;
 var newRoom = argument1;
 
-show_debug_message("going from room " +string(previousRoom) + " to " + string(newRoom));
+//show_debug_message("going from room " +string(previousRoom) + " to " + string(newRoom));
 
 currentBombType = bombTypeData[newRoom];
 
@@ -21,7 +21,11 @@ bombMagnet = bombMagnetData[newRoom];
 roomLocks = roomLocksData[newRoom];
 roomKeys = roomKeysData[newRoom];
 roomCleared = roomClearedData[newRoom];
+enemys = enemysData[newRoom];
 
+//make sure the previous room stays cleared
+roomLocksData[currentRoom] = 0;
+roomKeysData[currentRoom] = 0;
 
 //finally switch out the room
 currentRoom = newRoom;

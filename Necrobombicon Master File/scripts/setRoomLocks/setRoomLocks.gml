@@ -4,3 +4,4 @@
 roomLocksData[argument0] = 0;
 roomKeysData[argument0] = 0;
 roomClearedData[argument0] = false;
+enemysData[argument0] = 0;

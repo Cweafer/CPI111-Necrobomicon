@@ -9,6 +9,7 @@ bombMagnetData = 0;
 roomClearedData = 0;
 roomLocksData = 0;
 roomKeysData = 0;
+enemysData = 0;
 
 var roomNum = 0; 
 switch(global.floorNum)
@@ -36,15 +37,20 @@ case 1://this is the first floor of the game
 	setDefaultMods(roomNum);
 	bombMagnetData[roomNum] = false;
 	/////////////////////////////////////////////////////
-	
+	rooms = 2;//here we set the total number of rooms on the floor
 break;
 
 
 }
 //get information about actors in rooms
 with(Enemy_Obj){
-	fightRoomData[actorRoom] = true;
+	roomController.enemysData[actorRoom]++;
 }
+var i;
+for(i = 1; i<=rooms; i++;){
+	if(enemysData[i]>0) roomLocksData[i]++;
+}
+
 with(Puzzle_Obj){
 	
 }
