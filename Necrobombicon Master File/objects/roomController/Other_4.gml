@@ -32,3 +32,5 @@ bombMagnet= false;
 
 //now we set the floor data
 setFloorData();
+
+swapCurrentRoom(0,1);

@@ -2,6 +2,8 @@
 
 /// Define the instance variables shared by all actors
 
+actorRoom = getActorRoom(self);
+
 //movement instance variables
 canMove = true;//used for locking in movement vector
 moveSpeed = 0; 
