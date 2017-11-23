@@ -9,3 +9,6 @@ for (i = 0; i <= 3; i++) // represents different anim types, increment the 3 if 
 		spriteArray[i, j] = bone_spr;
 	}
 }	
+isInvincible=false;
+healthMax=1;
+healthCurrent=1;
