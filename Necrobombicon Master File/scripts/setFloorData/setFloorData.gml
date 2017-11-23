@@ -24,7 +24,7 @@ case 1://this is the first floor of the game
 	//room 1 start
 	roomNum = 1; 
 	
-	bombTypeData[roomNum] = bombType.base;
+	bombTypeData[roomNum] = bombType.rocket;
 	setRoomLocks(roomNum);
 	
 	setDefaultMods(roomNum);
@@ -48,5 +48,5 @@ with(Enemy_Obj){
 	fightRoomData[actorRoom] = true;
 }
 with(Puzzle_Obj){
-
+	
 }

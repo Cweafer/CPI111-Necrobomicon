@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "0f4df08a-dd04-41ee-887a-e11568581169",
+            "Value": {
+                "id": "fed27961-835e-4005-a1c2-d20e69edd4cc",
+                "resourcePath": "views\\0f4df08a-dd04-41ee-887a-e11568581169.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0ffe84f4-9420-41cd-9fb9-4e5313759360",
             "Value": {
                 "id": "44a3beef-ef27-47c7-a97f-53da1d98d385",
@@ -1260,6 +1268,14 @@
                 "id": "efc36ca3-d82a-45b1-8a35-fcd969f806e9",
                 "resourcePath": "scripts\\getTileAtPoints\\getTileAtPoints.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f33bd7d2-c371-4f96-85a9-5da6bec6e987",
+            "Value": {
+                "id": "60fa6a9e-2ec0-4f89-bf51-b0a87b56fb4b",
+                "resourcePath": "objects\\OpenDoor\\OpenDoor.yy",
+                "resourceType": "GMObject"
             }
         },
         {
