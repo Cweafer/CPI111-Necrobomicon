@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "324b40d8-b5c4-47a3-8429-d984ce72968e",
+            "Value": {
+                "id": "939b3a90-907b-43f5-a555-24b2c5bb7da1",
+                "resourcePath": "objects\\OpenDoor\\OpenDoor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "36cb7f0d-aef1-42d1-a222-a9cc208a63cf",
             "Value": {
                 "id": "dd56e3b9-0b0f-4924-9027-da2ca6d7407d",
@@ -1179,6 +1187,14 @@
             "Value": {
                 "id": "7f788e2f-7d90-43f4-8c08-078752b8f9c6",
                 "resourcePath": "views\\ec0b868b-f784-4062-8c65-5fe826038835.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ec6947f8-5fbb-4caa-b636-63ca8444610e",
+            "Value": {
+                "id": "457e1b37-c0a6-416a-abf3-e1c0b8eb1b6a",
+                "resourcePath": "views\\ec6947f8-5fbb-4caa-b636-63ca8444610e.yy",
                 "resourceType": "GMFolder"
             }
         },
