@@ -1,5 +1,5 @@
 
-if ( global.actor_allowUpdate == true && !isInvincible )
+if ( global.actor_allowUpdate && canMove && !isInvincible )
 {
 	with(Skeleton_obj){
 		randQuantcol = irandom_range(1,4);

@@ -4,7 +4,8 @@
 
 var radius = sprite_get_width(sprite_index);
 
-with(Projectile_Obj) {instance_destroy();}
+// broken code, not sure why it's here? destroys all projectiles, not just those in explosion radius
+// with(Projectile_Obj) {instance_destroy();}
 
 with(Actor_Obj){
 	

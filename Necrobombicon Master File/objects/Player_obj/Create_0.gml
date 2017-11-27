@@ -49,9 +49,13 @@ spriteArray[anim.hit, dir.southwest] = down_throw;
 spriteArray[anim.hit, dir.east] = right_throw;
 spriteArray[anim.hit, dir.west] = left_throw;
 
-for(i = 0; i <= 8; i++)
-{
-	spriteArray[anim.hurt, i] = TestWall_Sprite;
-}
+spriteArray[anim.hurt, dir.north] = up_Spr;
+spriteArray[anim.hurt, dir.northeast] = up_Spr;
+spriteArray[anim.hurt, dir.northwest] = up_Spr;
+spriteArray[anim.hurt, dir.south] = down_Spr;
+spriteArray[anim.hurt, dir.southeast] = down_Spr;
+spriteArray[anim.hurt, dir.southwest] = down_Spr;
+spriteArray[anim.hurt, dir.east] = right_throw;
+spriteArray[anim.hurt, dir.west] = left_Spr;
 
 mask_index = spriteArray[anim.idle, dir.south];

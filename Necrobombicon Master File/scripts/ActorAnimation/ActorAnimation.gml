@@ -25,11 +25,12 @@ if(global.actor_allowUpdate)
 		attacking = false;
 	}
 	
-	if(isInvincible)
+	/*if(isInvincible)
 	{
 		if (spriteArray[anim.hurt, currentDirection] != undefined)
 			sprite_index = spriteArray[anim.hurt, currentDirection];
-	}
+		image_blend = c_red;
+	}*/
 	else if(attacking)
 	{
 		if (spriteArray[anim.hit, currentDirection] != undefined)
