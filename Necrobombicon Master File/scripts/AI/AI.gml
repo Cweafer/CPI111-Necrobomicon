@@ -28,7 +28,7 @@ if ( global.actor_allowUpdate && canMove && !isInvincible )
 		{
 		timer++;
 		}
-		if(is_Colliding == true){
+		if(isCollidingX || isCollidingY ){
 		intendedDir = irandom_range(0,359);
 		}
 	}

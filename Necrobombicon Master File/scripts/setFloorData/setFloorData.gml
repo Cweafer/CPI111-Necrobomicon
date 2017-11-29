@@ -23,7 +23,7 @@ case 1://this is the first floor of the game
 	//room 1 start
 	roomNum = 1; 
 	
-	bombTypeData[roomNum] = bombType.rocket;
+	bombTypeData[roomNum] = bombType.bounce;
 	setRoomLocks(roomNum);
 	
 	setDefaultMods(roomNum);
@@ -31,7 +31,7 @@ case 1://this is the first floor of the game
 	//room2 start
 	roomNum = 2; 
 
-	bombTypeData[roomNum] = bombType.bounce;
+	bombTypeData[roomNum] = bombType.rocket;
 	setRoomLocks(roomNum);
 
 	setDefaultMods(roomNum);

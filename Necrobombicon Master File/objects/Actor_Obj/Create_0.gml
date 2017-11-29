@@ -24,7 +24,8 @@ environmentVectTyp = ds_list_create();
 //collision instance variables
 isSolid = true; //used for checking if actor can go through solid tiles
 canPush = true; //used for checking if actor can push loose objects
-is_Colliding = false;//checks actor is colliding with an object
+isCollidingX = false;//checks actor is colliding with an object
+isCollidingY = false;
 pushable = false;
 destroyOnCollide = false;
 
