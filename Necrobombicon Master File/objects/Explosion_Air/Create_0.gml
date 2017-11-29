@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var radius = sprite_get_width(sprite_index);
+var radius = sprite_get_width(sprite_index)/2;
 
 with(Actor_Obj)
 {

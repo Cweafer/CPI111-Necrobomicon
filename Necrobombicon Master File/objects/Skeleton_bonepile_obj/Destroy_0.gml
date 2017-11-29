@@ -22,5 +22,5 @@ with(instance_create_layer(x,y,"Instances",bone_projectile_obj))
 	intendedSpeed = 5;
 	intendedDir = 270;
 }
-}
 roomController.enemys--;
+}

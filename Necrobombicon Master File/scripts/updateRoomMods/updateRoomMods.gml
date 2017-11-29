@@ -2,6 +2,6 @@ if(bombMagnet)
 {
 	with(Bomb_Obj)
 	{
-		addVector(self, 2, point_direction(x,y,Player_obj.x,Player_obj.y), 1, "Magnet");
+		addVector(self, 1.5, point_direction(x,y,Player_obj.x,Player_obj.y), 0, "Magnet");
 	}
 }

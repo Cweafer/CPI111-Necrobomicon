@@ -4,7 +4,7 @@
 //destroy destructable tiles
 destroyTileColliding(self,0,0);
 
-var radius = sprite_get_width(sprite_index);
+var radius = sprite_get_width(sprite_index)/2;
 
 
 with(Actor_Obj)

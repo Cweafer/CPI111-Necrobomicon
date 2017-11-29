@@ -3,7 +3,7 @@
 ActorMovement();
 
 //checks if an object is supposed to be destryoed on collision with an object
-if(destroyOnCollide && is_Colliding){
+if(destroyOnCollide && (isCollidingX || isCollidingY)){
 	instance_destroy();
 }
 /*
