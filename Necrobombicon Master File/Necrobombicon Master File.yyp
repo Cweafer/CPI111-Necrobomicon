@@ -130,7 +130,7 @@
             "Key": "0b2a7cde-bf60-495c-8ca8-810aabdfb54d",
             "Value": {
                 "id": "acf97b2c-2663-4ffa-8822-fc89f359067d",
-                "resourcePath": "objects\\testBox\\testBox.yy",
+                "resourcePath": "objects\\woodBox\\woodBox.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -276,6 +276,14 @@
                 "id": "0dc47979-99ea-432d-9f0b-e2ea53cb5fc3",
                 "resourcePath": "objects\\gameSystemHandler\\gameSystemHandler.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2a53ca0e-3648-4557-a189-f9714bedfe1b",
+            "Value": {
+                "id": "2a3aed6d-6a8f-4c75-81e9-416725d3f63c",
+                "resourcePath": "sprites\\sprite54\\sprite54.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -699,6 +707,14 @@
             "Value": {
                 "id": "22822391-5d76-4b96-81d9-ca536cd8f713",
                 "resourcePath": "objects\\Base_Bomb\\Base_Bomb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7e4a0df7-09bb-416a-a176-960a0638e3b7",
+            "Value": {
+                "id": "34142283-d711-473e-8932-530785c47132",
+                "resourcePath": "objects\\PressurePad_Puzzle\\PressurePad_Puzzle.yy",
                 "resourceType": "GMObject"
             }
         },

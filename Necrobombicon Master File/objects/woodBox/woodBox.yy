@@ -2,7 +2,7 @@
     "id": "0b2a7cde-bf60-495c-8ca8-810aabdfb54d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "testBox",
+    "name": "woodBox",
     "eventList": [
         
     ],

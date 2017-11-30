@@ -7,3 +7,6 @@ bombBagData[argument0] = false;
 maxBombsData[argument0] = 0;
 
 bombMagnetData[argument0] = false;
+
+//fight defaults to true
+fightData[argument0] = true;
