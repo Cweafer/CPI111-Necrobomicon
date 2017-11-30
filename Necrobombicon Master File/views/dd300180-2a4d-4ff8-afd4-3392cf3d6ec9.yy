@@ -8,7 +8,7 @@
         "e3cef798-45fe-4646-9ac3-81ae4b97a0d0"
     ],
     "filterType": "GMObject",
-    "folderName": "Puzzels",
+    "folderName": "Puzzles",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

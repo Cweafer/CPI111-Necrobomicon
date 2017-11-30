@@ -16,8 +16,6 @@ if(enemys = 0 && enemysData[currentRoom] > 0){roomKeys++}
 if (Player_obj.healthCurrent <= 0 && playing)
 {
 	playing = false;
-	Player_obj.canMove = false;
-	Player_obj.intendedSpeed = 0;
-	Player_obj.moveSpeed = 0;
+	Player_obj.positionUpdate = false;
 	alarm[0] = 3 * room_speed;
 }

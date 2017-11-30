@@ -28,6 +28,7 @@ isCollidingX = false;//checks actor is colliding with an object
 isCollidingY = false;
 pushable = false;
 destroyOnCollide = false;
+positionUpdate = true;
 
 //attribute instance variables
 healthMax = 0;

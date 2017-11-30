@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (Player_obj.healthCurrent > 0)
+event_inherited();
+if (sprite_index == spriteArray[anim.hurt,currentDirection])
 {
-	game_save("Save.dat");
-	global.saved = true;
+
 }
