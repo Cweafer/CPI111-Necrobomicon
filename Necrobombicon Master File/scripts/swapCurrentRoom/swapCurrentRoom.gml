@@ -27,5 +27,8 @@ enemys = enemysData[newRoom];
 roomLocksData[currentRoom] = 0;
 roomKeysData[currentRoom] = 0;
 
+//swap active actors
+swapActiveActors(previousRoom,newRoom);
+
 //finally switch out the room
 currentRoom = newRoom;

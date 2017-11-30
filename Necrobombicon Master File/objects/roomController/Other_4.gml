@@ -35,3 +35,4 @@ bombMagnet= false;
 setFloorData();
 
 swapCurrentRoom(0,1);
+
