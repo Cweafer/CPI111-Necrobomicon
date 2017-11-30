@@ -1,4 +1,3 @@
-
 if ( global.actor_allowUpdate && canMove && !isInvincible )
 {
 		randQuantcol = irandom_range(1,4);

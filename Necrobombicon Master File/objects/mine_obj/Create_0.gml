@@ -3,9 +3,7 @@
 event_inherited();
 
 timer = 0;
-randQuat = irandom_range(1,4);
-intendedDir = 180;
-intendedSpeed = 3;
+maxSpeed = 12;
 
 healthMax = 3;
 healthCurrent = healthMax;
