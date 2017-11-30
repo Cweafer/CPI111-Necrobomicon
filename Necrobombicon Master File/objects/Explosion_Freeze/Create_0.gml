@@ -5,13 +5,13 @@ var radius = sprite_get_width(sprite_index);
 
 with(Projectile_Obj)
 {
-	if(distance_to_object(other)<radius)
+	if(distance_to_object(other)<=0)
 		instance_destroy();
 }
 
 with(Actor_Obj)
 {
-	if(distance_to_object(other)<radius)
+	if(distance_to_object(other)<=0)
 	{
 		if (isInvincible == false)
 		{

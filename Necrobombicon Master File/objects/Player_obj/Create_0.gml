@@ -49,13 +49,6 @@ spriteArray[anim.hit, dir.southwest] = down_throw;
 spriteArray[anim.hit, dir.east] = right_throw;
 spriteArray[anim.hit, dir.west] = left_throw;
 
-spriteArray[anim.hurt, dir.north] = up_Spr;
-spriteArray[anim.hurt, dir.northeast] = up_Spr;
-spriteArray[anim.hurt, dir.northwest] = up_Spr;
-spriteArray[anim.hurt, dir.south] = down_Spr;
-spriteArray[anim.hurt, dir.southeast] = down_Spr;
-spriteArray[anim.hurt, dir.southwest] = down_Spr;
-spriteArray[anim.hurt, dir.east] = right_throw;
-spriteArray[anim.hurt, dir.west] = left_Spr;
+spriteArray[anim.hurt, 0] = TestWall_Sprite;
 
 mask_index = spriteArray[anim.idle, dir.south];
