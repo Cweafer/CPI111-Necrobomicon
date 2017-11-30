@@ -10,6 +10,7 @@ roomClearedData = 0;
 roomLocksData = 0;
 roomKeysData = 0;
 enemysData = 0;
+fightData = 0;
 
 var roomNum = 0; 
 switch(global.floorNum)
@@ -52,12 +53,13 @@ break;
 
 }
 //get information about actors in rooms
+
 with(Enemy_Obj){
 	roomController.enemysData[actorRoom]++;
 }
 var i;
 for(i = 1; i<=rooms; i++;){
-	if(enemysData[i]>0) roomLocksData[i]++;
+	if(fightData[i] && enemysData[i]>0) roomLocksData[i]++;
 }
 
 with(Puzzle_Obj){
