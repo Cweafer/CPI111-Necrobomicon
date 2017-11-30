@@ -49,4 +49,10 @@ if(global.actor_allowUpdate)
 		if (spriteArray[anim.idle, currentDirection] != undefined)
 			sprite_index = spriteArray[anim.idle, currentDirection];
 	}
+	
+	if (healthCurrent <= 0)
+	{
+		if (spriteArray[anim.hurt,0] != undefined)
+			sprite_index = spriteArray[anim.hurt, 0];
+	}
 }

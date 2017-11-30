@@ -1,5 +1,6 @@
 /// @description Instantiate
-
+global.saved = false;
+playing = true;
 //enum containing types of bombs used in many places
 enum bombType {
 	base,

@@ -10,7 +10,8 @@
         "6dfcbfff-dd88-407c-992b-7443b33ca6c6",
         "b0bb49b9-6eaa-4196-b5e1-7a673a623f21",
         "734ace4b-6fec-4292-838b-6ce4612c68f8",
-        "7fc3c6ed-ee39-4ae5-bf1e-46fc67c50b9f"
+        "7fc3c6ed-ee39-4ae5-bf1e-46fc67c50b9f",
+        "4e7e630f-04f5-40d2-bff3-e1b0f8761d89"
     ],
     "filterType": "GMObject",
     "folderName": "Sigils",
