@@ -7,6 +7,8 @@ var newRoom = argument1;
 
 currentBombType = bombTypeData[newRoom];
 
+//Update Dialogue
+currentDialogue = roomDialogueData[newRoom];
 
 //Room Modifiers
 timedRoom = timedRoomData[newRoom];

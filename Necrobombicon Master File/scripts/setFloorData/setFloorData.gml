@@ -11,6 +11,7 @@ roomLocksData = 0;
 roomKeysData = 0;
 enemysData = 0;
 fightData = 0;
+roomDialogueData = 0;
 
 var roomNum = 0; 
 switch(global.floorNum)
@@ -23,6 +24,7 @@ case 1://this is the first floor of the game
 	/////////////////////////////////////////////////////
 	//room 1 start
 	roomNum = 1; 
+	roomDialogueData[roomNum] = "HELLO WORLD!";
 	
 	bombTypeData[roomNum] = bombType.remote;
 	setRoomLocks(roomNum);
@@ -31,13 +33,13 @@ case 1://this is the first floor of the game
 	/////////////////////////////////////////////////////
 	//room2 start
 	roomNum = 2; 
+	roomDialogueData[roomNum] = "HELLO AGAIN!";
 
 	bombTypeData[roomNum] = bombType.remote;
 	setRoomLocks(roomNum);
 
 	setDefaultMods(roomNum);
 	bombMagnetData[roomNum] = true;
-	/////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////
 	//room 3 start
 	roomNum = 3; 
