@@ -49,7 +49,25 @@ case 1://this is the first floor of the game
 	
 	setDefaultMods(roomNum);
 	/////////////////////////////////////////////////////
-	rooms = 3;//here we set the total number of rooms on the floor
+	/////////////////////////////////////////////////////
+	//room 4 start
+	roomNum = 4; 
+	
+	bombTypeData[roomNum] = bombType.fuse;
+	setRoomLocks(roomNum);
+	
+	setDefaultMods(roomNum);
+	/////////////////////////////////////////////////////
+	/////////////////////////////////////////////////////
+	//room 5 start
+	roomNum = 5; 
+	
+	bombTypeData[roomNum] = bombType.base;
+	setRoomLocks(roomNum);
+	
+	setDefaultMods(roomNum);
+	/////////////////////////////////////////////////////
+	rooms = 5;//here we set the total number of rooms on the floor
 break;
 
 

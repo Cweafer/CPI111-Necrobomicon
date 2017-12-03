@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 var radius = sprite_get_width(sprite_index);
+var freezeSeconds = 4;
 
 with(Projectile_Obj)
 {
@@ -22,7 +23,7 @@ with(Actor_Obj)
 			ySpeed = 0;
 			image_speed = 0;
 			image_blend = c_blue;
-			alarm[3] = room_speed * 2;
+			alarm[3] = room_speed * freezeSeconds;
 			addVector(self,(radius - distance_to_object(other))/5, point_direction(other.x,other.y,x,y), 5,self.id);
 		}
 	}	

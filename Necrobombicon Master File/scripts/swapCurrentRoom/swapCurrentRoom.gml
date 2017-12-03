@@ -34,3 +34,4 @@ swapActiveActors(previousRoom,newRoom);
 
 //finally switch out the room
 currentRoom = newRoom;
+setCameraBound(currentRoom);
