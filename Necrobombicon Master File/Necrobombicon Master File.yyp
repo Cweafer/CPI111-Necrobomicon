@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "7fce737e-ffad-43d2-b219-eb9f594fa8ee",
+            "Value": {
+                "id": "7a37b5a9-2800-439e-be15-bcfa5eccf800",
+                "resourcePath": "scripts\\boundCameraToRoom\\boundCameraToRoom.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7fce917b-a489-4fb7-86de-5b1a7a5907d5",
             "Value": {
                 "id": "9e78b3b0-d2b8-45e8-bc4b-464c1f0c8953",
@@ -1375,6 +1383,14 @@
             }
         },
         {
+            "Key": "f69b6687-b732-4385-a624-4ebdd2fb2464",
+            "Value": {
+                "id": "14d05d9c-2222-47e8-9242-d61a756a6a62",
+                "resourcePath": "scripts\\setCameraBound\\setCameraBound.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f6fb4a32-5408-4e86-966f-88b5031b2ab1",
             "Value": {
                 "id": "eb966725-8725-4815-bf14-fc14429bd6f5",
@@ -1436,7 +1452,9 @@
         "67bf09f7-230e-4e59-9d08-b7880e56368a",
         "36cb7f0d-aef1-42d1-a222-a9cc208a63cf",
         "89342c23-3f9d-4d5e-b4a7-369b21379da4",
-        "0bb7101b-b564-4497-855d-c33078eebafc"
+        "0bb7101b-b564-4497-855d-c33078eebafc",
+        "f69b6687-b732-4385-a624-4ebdd2fb2464",
+        "7fce737e-ffad-43d2-b219-eb9f594fa8ee"
     ],
     "tutorial": ""
 }

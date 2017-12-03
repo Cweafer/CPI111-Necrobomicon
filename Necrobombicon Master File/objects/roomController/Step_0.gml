@@ -21,3 +21,5 @@ if (Player_obj.healthCurrent <= 0 && playing)
 	Player_obj.moveSpeed = 0;
 	alarm[0] = 3 * room_speed;
 }
+
+boundCameraToRoom();

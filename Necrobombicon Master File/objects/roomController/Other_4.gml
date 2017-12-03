@@ -11,6 +11,12 @@ enum bombType {
 	bounce
 }
 
+//camera control var
+topBound=0;
+bottomBound=0;
+leftBound=0;
+rightBound=0;
+
 // set up the room variables
 global.floorNum = room;
 currentRoom = getActorRoom(Player_obj);
