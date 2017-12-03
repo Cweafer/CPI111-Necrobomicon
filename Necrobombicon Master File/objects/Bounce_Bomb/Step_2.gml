@@ -3,7 +3,6 @@
 event_inherited();
 if(isCollidingX || isCollidingY)
 {
-	show_debug_message("Before bounce: " + string(intendedDir));
 	if (isCollidingX)
 	{
 		if ((intendedDir > 270) && (intendedDir < 360)) //southeast
@@ -39,8 +38,6 @@ if(isCollidingX || isCollidingY)
 	{
 		intendedDir += 360;
 	}
-	
-	show_debug_message("After bounce: " + string(intendedDir));
 	
 	intendedSpeed = 6;
 	numBounces++;
