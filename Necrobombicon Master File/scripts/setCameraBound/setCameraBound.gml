@@ -4,8 +4,8 @@ var curRoom = argument0;
 
 var tilemapId = layer_tilemap_get_id("roomTiles");
 var CameraId = view_camera[0];
-var vScroll = false;
-var hScroll = false;
+vScroll = false;
+hScroll = false;
 
 //calculate the x and y bounds of the current room
 
@@ -61,7 +61,10 @@ while(!found){
 
 bottomBound = (tY + j) * tHeight;
 
-	
+if(bottomBound-topBound > tHeight)
+	vScroll = true;
+if(rightBound - leftBound > tWidth)
+	hScroll = true;
 	
 //set the camera clamp to the positions we've calculated 
 //camera_set_view_pos(CameraId,
@@ -76,8 +79,7 @@ show_debug_message("bottomBound: " + string(bottomBound));
 
 //set borders for following the player
 //if the room is size 1 we leave them zero
-var bX = 0;
-var bY = 0;
+
 //if(rightBound - leftBound > 1300) bX = 500;
 //if(bottomBound-topBound > 700) bY = 500;
 

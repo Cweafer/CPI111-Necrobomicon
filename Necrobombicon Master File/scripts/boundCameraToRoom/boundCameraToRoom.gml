@@ -5,9 +5,10 @@ var CameraId = view_camera[0];
 //set this in one place so its not confusing for people
 //this is the size of the follow border in pixels
 var border = 250;
-
-var xB = border;
-var yB = border;
+var xB;
+var yB;
+if(hScroll) xB = border; else xB = 0;
+if(vScroll) yB = border; else yB = 0;
 
 //check if the camera is out of bounds and move it back if so
 if(camera_get_view_y(CameraId) + tHeight > bottomBound){
@@ -25,7 +26,6 @@ if(camera_get_view_x(CameraId) < leftBound){
 
 //now we set the borders for following the player
 //we have to make sure we're not near a bound before hand
-
 if(Player_obj.x -leftBound <= border)
 	xB = 0;
 
@@ -38,5 +38,5 @@ if(Player_obj.y -topBound <= border)
 if(bottomBound - Player_obj.y <= border)
 	yB = 0;
 
-//if(camera_get_view_border_x(CameraId) != xB || camera_get_view_border_y(CameraId) != yB)
+if(camera_get_view_border_x(CameraId) != xB || camera_get_view_border_y(CameraId) != yB)
 	camera_set_view_border(CameraId,xB,yB);

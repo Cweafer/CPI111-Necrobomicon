@@ -16,6 +16,8 @@ topBound=0;
 bottomBound=0;
 leftBound=0;
 rightBound=0;
+hScroll = false;
+vScroll = false;
 
 // set up the room variables
 global.floorNum = room;
